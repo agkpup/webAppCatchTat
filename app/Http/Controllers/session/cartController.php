@@ -46,8 +46,8 @@ class cartController extends Controller
         return redirect()->back()->with('success','cart updated successfully');
     }
 
-    public function clearCart(){
-        session()->forget('cart');
-        return redirect()->back()->with('message','cart cleared');
-    }
+    // public function clearCart(){
+    //     session()->forget('cart');
+    //     return redirect()->back()->with('message','cart cleared');
+    // }
 }
