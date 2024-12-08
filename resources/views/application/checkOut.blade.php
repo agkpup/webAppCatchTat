@@ -31,31 +31,32 @@
                 @if(empty($cart))
                     <p>The cart is empty</p>
                 @else
+                @foreach ($cart as $item)
                 <div class="check-page-top-content">
                     <div class="checkout-page-top-sec">
                         <div class="checkout-page-top-sec-img">
-                            <img src="assets/images/checkoutpage/chair.png" alt="chair-img" class="img-fluid">
+                            <img src="{{ asset($item['image']) }}" alt="chair-img" class="img-fluid">
                         </div>
                         <div class="checkout-quantity-sec">
-                            <p class="chek-txt1">Chairs</p>
-                            <h3 class="chek-txt2 mt-16">Wing Chair</h3>
-                            <h4 class="chek-txt3 mt-8">Qty: 2</h4>
+                            <p class="chek-txt1">{{ $item['subject'] }}</p>
+                            <h3 class="chek-txt2 mt-16">{{ $item['description'] }}</h3>
+                            <h4 class="chek-txt3 mt-8">Qty: {{ $item['quantity'] }}</h4>
                         </div>
                         <div class="checkoutpage-increment-full">
                             <div class="checkoutpage-increment-full-details">
-                                <p class="chek-txt4">$200</p>
-                                <div class="quantity">
-                                    <a href="javascript:void(0)" class="quantity__minus sub">
+                                <p class="chek-txt4">${{ $item['price'] }}</p>
+                                <div class="quantity" data-product-id="{{ $item['id'] }}">
+                                    <a href="javascript:void(0)" class="quantity__minus sub" onclick="updateCart('{{ $item['id'] }}', 'subtract')">
                                         <span>
                                             <svg width="8" height="8" viewBox="0 0 8 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1 1H7" stroke="#666666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                             </svg>
                                         </span>
                                     </a>
-                                    <input name="quantity" type="text" class="quantity__input" value="2">
-                                    <a href="javascript:void(0)" class="quantity__plus add">
+                                    <input name="quantity" type="text" class="quantity__input" value="{{ $item['quantity'] }}">
+                                    <a href="javascript:void(0)" class="quantity__plus add" onclick="updateCart('{{ $item['id'] }}', 'add')">
                                         <span>
-                                            <svg  width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M1 4H7" stroke="#e7ef04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                                 <path d="M4 7V1" stroke="#e7ef04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                             </svg>
@@ -67,8 +68,10 @@
                     </div>
                     <div class="checkoutpage-boder mt-16"></div>
                 </div>
+            @endforeach
+            
                 @endif
-                <div class="check-page-top-content mt-16">
+                {{-- <div class="check-page-top-content mt-16">
                     <div class="checkout-page-top-sec">
                         <div class="checkout-page-top-sec-img">
                             <img src="assets/images/checkoutpage/light.png" alt="light-img" class="img-fluid">
@@ -103,20 +106,20 @@
                         </div>
                     </div>
                     <div class="checkoutpage-boder mt-16"></div>
-                </div>
+                </div> --}}
             </div>
         </div>
         <div class="checkoutpage-second-sec mt-24">
             <div class="container">
                 <div class="payment-mode-sec">
-                    <div class="payment-mode-custom">
-                        <input  type="radio" name="payment-type" id="payment-type1" value="payment-type1" checked>
+                    {{-- <div class="payment-mode-custom">
+                        <input  type="radio" name="payment-type" id="payment-type1" value="payment-type1" >
                         <label class="payment-mode-custom-label" for="payment-type1">
                             Delivery
                         </label>
-                    </div>
+                    </div> --}}
                     <div class="payment-mode-custom">
-                        <input type="radio" name="payment-type" id="payment-type2" value="payment-type2">
+                        <input type="radio" name="payment-type" id="payment-type2" value="payment-type2" checked>
                         <label class="payment-mode-custom-label" for="payment-type2">
                             Pickup
                         </label>
@@ -131,12 +134,12 @@
                         <div class="time-add-main-sec">
                             <h4 class="time-txt1">Delivery Date & Time</h4>
                             <div class="time-add-main-sec-full">
-                                <div class="time-content-sec">
+                               <div class="time-content-sec">
                                     <p class="time-txt2">Monday, December 26</p>
-                                    <p class="time-txt3">05:00 PM</p>
+                                    <p class="time-txt3">05:00 PM</p>  
                                 </div>
                                 <div class="time-icon-sec">
-                                    <a href="javascript:void(0)">
+                                    <a href="#offcanvasExample" data-bs-toggle="offcanvas">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <mask style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
                                                 <rect width="24" height="24" fill="white"/>
@@ -152,12 +155,12 @@
                         <div class="time-add-main-sec mt-24">
                             <h4 class="time-txt1">Delivery Address</h4>
                             <div class="time-add-main-sec-full">
-                                <div class="time-content-sec">
+                                <div class="time-content-sec" >
                                     <p class="time-txt2">Home</p>
                                     <p class="time-txt3">121 Parkview Street, Albert View, NY 01256</p>
                                 </div>
                                 <div class="time-icon-sec">
-                                    <a href="javascript:void(0)">
+                                    <a href="#offcanvasTimeDate" data-bs-toggle="offcanvas">
                                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <mask style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
                                                 <rect width="24" height="24" fill="white"/>
@@ -272,28 +275,21 @@
                             <div class="checkoutpage-boder mt-8"></div>
                         </div>
                         <div class="check-page-bottom mt-12">
-                            <div class="check-page-bottom-deatails">
+                            
+                            <div class="check-page-bottom-deatails mt-12">
                                 <div class="check-price-name">
-                                    <p>Wing Chair x 2</p>
+                                    <p>Total</p>
                                 </div>
                                 <div class="check-price-list">
-                                    <p>$200.00</p>
+                                    <p>{{$amount['totalAmount']}}</p>
                                 </div>
                             </div>
                             <div class="check-page-bottom-deatails mt-12">
                                 <div class="check-price-name">
-                                    <p>Roung White Lamp x 1</p>
-                                </div>
-                                <div class="check-price-list">
-                                    <p>$40.00</p>
-                                </div>
-                            </div>
-                            <div class="check-page-bottom-deatails mt-12">
-                                <div class="check-price-name">
-                                    <p>Coupon Offer</p>
+                                    <p>Disount</p>
                                 </div>
                                 <div >
-                                    <p class="col-green">- $00.00</p>
+                                    <p class="col-green">  {{$amount['discount']}} </p>
                                 </div>
                             </div>
                             <div class="check-page-bottom-deatails mt-12">
@@ -307,10 +303,10 @@
                             <div class="checkoutpage-boder mt-12"></div>
                             <div class="check-page-bottom-deatails mt-12">
                                 <div>
-                                    <p class="col-black">Total Price</p>
+                                    <p class="col-green">Total Price</p>
                                 </div>
                                 <div>
-                                    <p class="col-black">$260.00</p>
+                                    <p class="col-green">{{$amount['netAmount']}}</p>
                                 </div>
                             </div>
                         </div>
@@ -324,5 +320,275 @@
         </div>
     </section>
     <!-- Checkout page Section End -->
+    <div class="menu-sidebar details">
+        <div class="offcanvas offcanvas-start custom-offcanvas-noti" id="offcanvasExample">
+            <div class="offcanvas-header custom-header-offcanva">
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="dropdown mt-3">
+                    <h2 class="app-setting-title">Adress</h2>
+                    <div class="app-setting-page-full mt-24">
+                        <div class="app-setting-top">
+
+
+                                @foreach ($address as $addr)
+                                <div class="app-setting-menu-start mt-16">
+                                    <div class="menu-icon">
+                                        <input style="background-color: yellow" type="radio" name="menu-option" value="homepage1" class="menu-radio" />
+                             
+                                    </div>
+                                    <div class="menu-txt-app">
+                                        <h3 class="app-txt-title">Homepage2</h3>
+                                    </div>
+                                </div> 
+                                @endforeach
+                                <button class="btn btn-primary btn-sm btn-block" id="openForm">Add New Address</button>
+                                <div class="openForm"></div>
+                                <div class="border-bottom-app mt-8"></div>
+                         
+                          
+                        </div>
+                        <div class="app-setting-bottom mt-24">
+                            <div class="app-setting-bottom-full">
+                                <h2 class="app-bottom-txt">More Options</h2>
+                                <div class="switch-sec mt-16">
+                                    <div>
+                                        <h3 class="app-switch-txt1">Email Newsletter</h3>
+                                    </div>
+                                    <div class="app-setting-switch">
+                                        <label class="switch app-switch">
+                                            <input type="checkbox" checked="">
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="switch-sec mt-16">
+                                    <div>
+                                        <h3 class="app-switch-txt1">Text Messages</h3>
+                                    </div>
+                                    <div class="app-setting-switch">
+                                        <label class="switch app-switch">
+                                            <input type="checkbox">
+                                            <span class="slider round"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dark-overlay"></div>
+    
 </div>
+
+<div class="menu-sidebar details">
+    <div class="offcanvas offcanvas-start custom-offcanvas-noti" id="offcanvasTimeDate">
+        <div class="offcanvas-header custom-header-offcanva">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="dropdown mt-3">
+                <h2 class="app-setting-title">Adress</h2>
+                <div class="app-setting-page-full mt-24">
+                    <div class="app-setting-top">
+
+
+                            
+                            <div class="app-setting-menu-start mt-16">
+                                <div class="menu-icon">
+                                    <input style="background-color: yellow" type="radio" name="menu-option" value="homepage1" class="menu-radio" />
+                         
+                                </div>
+                                <div class="menu-txt-app">
+                                    <h3 class="app-txt-title">Homepage2</h3>
+                                </div>
+                            </div>
+                            <div class="border-bottom-app mt-8"></div>
+                     
+                      
+                    </div>
+                    <div class="app-setting-bottom mt-24">
+                        <div class="app-setting-bottom-full">
+                            <h2 class="app-bottom-txt">More Options</h2>
+                            <div class="switch-sec mt-16">
+                                <div>
+                                    <h3 class="app-switch-txt1">Email Newsletter</h3>
+                                </div>
+                                <div class="app-setting-switch">
+                                    <label class="switch app-switch">
+                                        <input type="checkbox" checked="">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="switch-sec mt-16">
+                                <div>
+                                    <h3 class="app-switch-txt1">Text Messages</h3>
+                                </div>
+                                <div class="app-setting-switch">
+                                    <label class="switch app-switch">
+                                        <input type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dark-overlay"></div>
+
+</div>
+
+
+<script>
+   let cart = @json($cart) || [];
+   let amount = @json($amount);
+    localStorage.setItem('cart', JSON.stringify(cart));
+    console.log('Cart data saved to localStorage:', cart);
+    console.log('amount',amount);
+
+    function updateCart(productId, operation) {
+    const endpoint = operation === 'add' ? '/cart/add' : '/cart/subtract';
+
+    fetch(endpoint, {
+        method: 'POST',
+        headers: {
+            "Content-Type": "application/json",
+            "X-CSRF-TOKEN": "{{ csrf_token() }}"
+        },
+        body: JSON.stringify({ id: productId })
+    })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data.status === 'success') {
+                console.log(data.message);
+                console.log('Updated cart:', data.cart);
+
+                // Optionally update UI here
+                const quantityInput = document.querySelector(
+                    `.quantity-control[data-product-id="${productId}"] .quantity__input`
+                );
+                if (quantityInput) {
+                    const updatedItem = data.cart.find(item => item.id == productId);
+                    if (updatedItem) {
+                        quantityInput.value = updatedItem.quantity;
+                    }
+                }
+            } else {
+                console.error('Error:', data.message);
+            }
+        })
+        .catch(error => console.error('Error:', error.message || error));
+}
+
+
+//add addrss form
+document.getElementById('openForm').addEventListener('click', function() {
+    // Create the form HTML
+    const formHTML = `
+        <form id="addressForm">
+    <div class="form-group">
+        <label for="address">Address</label>
+        <input type="text" class="form-control" id="address" placeholder="Enter address" required>
+    </div>
+
+    <div class="form-group">
+        <label for="street">Street</label>
+        <input type="text" class="form-control" id="street" placeholder="Enter street" required>
+    </div>
+
+    <div class="form-group">
+        <label for="city">City</label>
+        <input type="text" class="form-control" id="city" placeholder="Enter city" required>
+    </div>
+
+    <div class="form-group">
+        <label for="pincode">Pincode</label>
+        <input type="text" class="form-control" id="pincode" placeholder="Enter pincode" required>
+    </div>
+
+    <div class="form-group">
+        <label for="contactPersonMob">Contact Person Mobile</label>
+        <input type="text" class="form-control" id="contactPersonMob" placeholder="Enter contact person mobile number" required>
+    </div>
+
+    <!-- Hidden Field for isSelectedForDelivery -->
+    <input type="hidden" id="isSelectedForDelivery" name="isSelectedForDelivery" value="true">
+    <div class="mt-3">
+    <button type="submit" class="btn btn-success btn-sm">Submit</button>
+    <button type="button" class="btn btn-danger btn-sm" id="closeForm">Cancel</button>
+    </div>
+</form>
+
+    `;
+    
+    // Inject the form into the .openForm div
+    document.querySelector('.openForm').innerHTML = formHTML;
+    
+    // Handle form submission
+    document.getElementById('addressForm').addEventListener('submit',async function(event) {
+        event.preventDefault();  // Prevent the form from submitting normally
+        
+        const address = document.getElementById('address').value;
+        const street = document.getElementById('street').value;
+        const city = document.getElementById('city').value;
+        const pincode = document.getElementById('pincode').value;
+        const contactPersonMob = document.getElementById('contactPersonMob').value;
+        const isSelectedForDelivery = document.getElementById('isSelectedForDelivery').value;
+        const formData = {
+        address: address,
+        street: street,
+        city: city,
+        pincode: pincode,
+        contactPersonMob: contactPersonMob,
+        isSelectedForDelivery: isSelectedForDelivery
+    };
+    try {
+        // Make the fetch request
+        const response = await fetch('/addresses', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',  // Send as JSON
+                'X-CSRF-TOKEN': '{{ csrf_token() }}'
+            },
+            body: JSON.stringify(formData)  // Convert the form data to JSON
+        });
+
+        // Check if the response is okay (status 200)
+        if (response.ok) {
+            const responseData = await response.json();
+            alert(responseData.message);  // Show success message from the server
+            // You can also handle any other response here (e.g., update the UI)
+        } else {
+            throw new Error('Failed to submit address');  // Handle non-200 responses
+        }
+    } catch (error) {
+        // Handle errors, such as network issues
+        console.error('Error:', error);
+        alert('An error occurred while adding the address.');
+    }
+
+    });
+    
+    // Close the form if cancel button is clicked
+    document.getElementById('closeForm').addEventListener('click', function() {
+        document.querySelector('.openForm').innerHTML = '';
+    });
+});
+
+//end address form
+
+
+</script>
 @endsection

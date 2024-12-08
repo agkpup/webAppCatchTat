@@ -80,6 +80,9 @@ body {
    height: 100%;
    background-color: #000215;
 }
+p{
+    color:whitesmoke;
+}
 h1,
 h2,
 h3,
@@ -2866,6 +2869,7 @@ label.size-label {
    -moz-column-gap: 15px;
    column-gap: 15px;
    position: relative;
+   margin:10px;
 }
 .checkout-page-top-sec-content-full{
  display: -webkit-box;
@@ -2896,7 +2900,7 @@ label.size-label {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    color: #1E293B;
+    color: whitesmoke;
 }
 .chek-txt3 {
     font-family: 'Inter';
@@ -2904,7 +2908,7 @@ label.size-label {
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
-    color: #666666;
+    color: whitesmoke;
 }
 .chek-txt4 {
     font-family: 'Inter';
@@ -2913,7 +2917,7 @@ label.size-label {
     font-size: 14px;
     line-height: 18px;
     text-align: right;
-    color: #666666;
+    color: whitesmoke;
 }
 .quantity__minus {
     display: -webkit-box;
@@ -2927,10 +2931,11 @@ label.size-label {
     justify-content: center;
     border: 2px solid #666666;
     margin: 0;
-    background: white;
+    background: rgb(229, 138, 138);
     width: 18px;
     height: 18px;
     border-radius: 4px;
+    margin-right: 2px;
 }
 .quantity__minus svg,
 .quantity__plus svg {
@@ -2948,12 +2953,13 @@ label.size-label {
    -webkit-box-pack: center;
    -ms-flex-pack: center;
    justify-content: center;
-   border: 2px solid #e7ef04;
+   border: 2px solid greenyellow;
    margin: 0;
    background: white;
    width: 18px;
    height: 18px;
    border-radius: 4px;
+   margin-left:2px;
 }
 .quantity__input {
     width: 40px;
@@ -2983,6 +2989,9 @@ label.size-label {
 }
 .checkout-page-top-sec-img img{
     border-radius: 55px 55px 8px 8px;
+    max-width: 77px;
+    height: 70px;
+    background-color: yellow;
 }
 .checkoutpage-increment-full{
     margin-left: auto;

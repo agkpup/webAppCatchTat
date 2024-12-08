@@ -38,7 +38,7 @@
     <div class="homepage2-second-sec mt-24">
         <div class="container">
             <div class="product-details">
-                <a href="{{route('checkOut')}}">
+                <a href="javascript:void(0);" id="add-to-cart-casual" >
                 <div class="product-sec">
                     <div class="product-img-sec">
                         <img src="assets/images/catchy/t_shirt.svg" alt="furniture-img">
@@ -46,48 +46,62 @@
                     <h3 class="proct-title-hp-2">Casual Wear</h3>
                 </div>
             </a>
+            <a href="javascript:void(0);" id="add-to-cart-formal" >
                 <div class="product-sec">
                     <div class="product-img-sec">
                         <img src="assets/images/catchy/shirt.svg" alt="furniture-img">
                     </div>
                     <h3 class="proct-title-hp-2">Formal Wear</h3>
                 </div>
+            </a>
+            <a href="javascript:void(0);" id="add-to-cart-active" >
                 <div class="product-sec">
                     <div class="product-img-sec">
                         <img src="assets/images/catchy/sport.svg" alt="furniture-img">
                     </div>
                     <h3 class="proct-title-hp-2">Active Wear</h3>
                 </div>
+            </a>
+            <a href="javascript:void(0);" id="add-to-cart-woolen" >
                 <div class="product-sec">
                     <div class="product-img-sec">
                         <img src="assets/images/catchy/hoodie.svg" alt="furniture-img">
                     </div>
                     <h3 class="proct-title-hp-2">Woolen Wear</h3>
                 </div>
+            </a>
+            <a href="javascript:void(0);" id="add-to-cart-coats" >
                 <div class="product-sec">
                     <div class="product-img-sec">
                         <img src="assets/images/catchy/uniform.svg" alt="furniture-img">
                     </div>
                     <h3 class="proct-title-hp-2">Coats &amp; Suits</h3>
                 </div>
+            </a>
+            <a href="javascript:void(0);" id="add-to-cart-beds" >
                 <div class="product-sec">
                     <div class="product-img-sec">
                         <img src="assets/images/catchy/bed.svg" alt="furniture-img">
                     </div>
                     <h3 class="proct-title-hp-2">Beds &amp; Blankets</h3>
                 </div>
+            </a>
+            <a href="javascript:void(0);" id="add-to-cart-baby" >    
                 <div class="product-sec">
                     <div class="product-img-sec">
                         <img src="assets/images/catchy/baby.svg" alt="furniture-img">
                     </div>
                     <h3 class="proct-title-hp-2">Baby Wear</h3>
                 </div>
+            </a>
+            <a href="javascript:void(0);" id="add-to-cart-shoes" >
                 <div class="product-sec">
                     <div class="product-img-sec">
                         <img src="assets/images/catchy/shoes.svg" alt="furniture-img">
                     </div>
                     <h3 class="proct-title-hp-2">Shoes Clean</h3>
                 </div>
+            </a>
             </div>
         </div>
     </div>
@@ -939,6 +953,82 @@
         </div>
     </div>
     <div class="dark-overlay"></div>
+<script>
+    function addToCart(productId, productImage, productSubject, productDescription, productPrice) {
+    // Prevent the default anchor behavior
+    event.preventDefault();
+
+    // Product details
+    const product = {
+        id: productId,
+        image: productImage,
+        subject: productSubject,
+        description: productDescription,
+        price: productPrice,
+        quantity: 1 // Default quantity
+    };
+
+    // Send data to the server via AJAX
+    fetch("{{ route('addToCart') }}", {  // Assuming you have an 'addToCart' route
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            "X-CSRF-TOKEN": "{{ csrf_token() }}"
+        },
+        body: JSON.stringify(product)
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Failed to add to cart');
+        }
+        return response.json(); // Parse the JSON response
+    })
+    .then(data => {
+        // On success, you may redirect to the checkout page or update cart UI
+        console.log("Cart updated:", data);
+        window.location.href = "{{ route('checkOut') }}";  // Redirect to checkout
+    })
+    .catch(error => {
+        console.error("Error adding to cart:", error);
+        alert("There was an error adding the item to your cart. Please try again.");
+    });
+}
+
+// Event listeners for adding products to the cart
+document.getElementById('add-to-cart-casual').addEventListener('click', function(event) {
+    addToCart(9001, 'assets/images/catchy/t_shirt.svg', 'Casual Wear', 'A comfortable casual t-shirt for daily wear.', 20);
+});
+
+document.getElementById('add-to-cart-formal').addEventListener('click', function(event) {
+    addToCart(9002, 'assets/images/catchy/shirt.svg', 'Formal Wear', 'A stylish formal shirt for work and events.', 30);
+});
+
+document.getElementById('add-to-cart-active').addEventListener('click', function(event) {
+    addToCart(9003, 'assets/images/catchy/sport.svg', 'Active Wear', 'A breathable t-shirt for workouts and outdoor activities.', 25);
+});
+
+document.getElementById('add-to-cart-woolen').addEventListener('click', function(event) {
+    addToCart(9004, 'assets/images/catchy/hoodie.svg', 'Woolen Wear', 'A warm woolen hoodie for cold weather.', 40);
+});
+
+document.getElementById('add-to-cart-coats').addEventListener('click', function(event) {
+    addToCart(9005, 'assets/images/catchy/uniform.svg', 'Coats', 'A stylish coat for winter fashion.', 50);
+});
+
+document.getElementById('add-to-cart-beds').addEventListener('click', function(event) {
+    addToCart(9006, 'assets/images/catchy/bed.svg', 'Beds', 'Comfortable bedding options for your home.', 60);
+});
+
+document.getElementById('add-to-cart-baby').addEventListener('click', function(event) {
+    addToCart(9007, 'assets/images/catchy/baby.svg', 'Baby Wear', 'Soft and comfortable wear for babies.', 15);
+});
+
+document.getElementById('add-to-cart-shoes').addEventListener('click', function(event) {
+    addToCart(9008, 'assets/images/catchy/shoes.svg', 'Shoes', 'Comfortable shoes for everyday use.', 35);
+});
+
+</script>
+    
 </div>
 <!-- Setting Menu Section End -->
 

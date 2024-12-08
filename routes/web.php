@@ -1,14 +1,30 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controller\session\cartController;
+use App\Http\Controllers\Session\CartController;
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('information.home');
+})->name('homeLanding');
+
+Route::get('/services-order',function(){
+    return view ('application.homePage2_6');
+})->name('serviceOrder');
+
+Route::get('/service-information',function(){
+    return view('information.service');
+})->name('serviceInformation');
+
+Route::get('/pricing',function(){
+    return view('information.price');
+})->name('pricing');
+
+Route::get('/contact-us', function () {
+    return view('information.contact');
+})->name('contactUs');
 
 Route::get('/about-us', function () {
-    return view('application.aboutUs');
+    return view('information.about');
 })->name('aboutUs');
 
 Route::get('/app-setting', function () {
@@ -19,7 +35,16 @@ Route::get('/category-page', function () {
     return view('application.categoryPage');
 })->name('categoryPage');
 
-Route::get('/check-out',[cartController::class,'addService'])->name('checkOut');
+Route::get('/check-out',[CartController::class,'showCart'])->name('checkOut');
+Route::post('/check-out', [CartController::class, 'addToCart'])->name('addToCart');
+Route::post('/cart/add', [CartController::class, 'addQuantity'])->name('cart.add');
+Route::post('/cart/subtract', [CartController::class, 'subtractQuantity'])->name('cart.subtract');
+//address of delivery
+Route::post('/addresses', [CartController::class, 'addAddressOfDelivery'])->name('addAddressOfDelivery');
+Route::put('/addresses/{addressId}', [CartController::class, 'updateAddressOfDelivery'])->name('updateAddressOfDelivery');
+Route::delete('/addresses/{addressId}', [CartController::class, 'deleteAddressOfDelivery'])->name('deleteAddressOfDelivery');
+
+
 
 Route::get('/faq', function () {
     return view('application.faq');
