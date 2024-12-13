@@ -8,8 +8,8 @@ Hero Area
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="hero-inner">
-                    <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_1_1.jpg">
-                        <img src="assets/img/hero/hero_overlay_1.png" alt="Hero Image">
+                    <div class="th-hero-bg" data-bg-src="information/assets/img/hero/hero_bg_1_1.jpg">
+                        <img src="information/assets/img/catchytat/hero1/hero_b.png" alt="Hero Image">
                         <div class="bubble"></div>
                     </div>
                     <div class="container">
@@ -31,8 +31,8 @@ Hero Area
             </div>
             <div class="swiper-slide">
                 <div class="hero-inner">
-                    <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_1_2.jpg">
-                        <img src="assets/img/hero/hero_overlay_1.png" alt="Hero Image">
+                    <div class="th-hero-bg" data-bg-src="information/assets/img/hero/hero_bg_1_2.jpg">
+                        <img src="information/assets/img/catchytat/hero1/hero_c.png" alt="Hero Image">
                         <div class="bubble"></div>
                     </div>
                     <div class="container">
@@ -43,8 +43,8 @@ Hero Area
                                 for your laundry service will depend on your specific brand, target audience, and the
                                 unique qualities of your service.</p>
                             <div class="btn-group" data-ani="slideinup" data-ani-delay="0.9s">
-                                <a href="about.html" class="th-btn style2" data-ani="slideinup" data-ani-delay="0.9s">Discover
-                                    More</a>
+                                <a href="{{route('serviceOrder')}}" class="th-btn style2" data-ani="slideinup" data-ani-delay="0.9s">Wash My Clothes
+                                </a>
                                 <a href="contact.html" class="th-btn style5" data-ani="slideinup" data-ani-delay="0.9s">Contact
                                     Us</a>
                             </div>
@@ -54,8 +54,8 @@ Hero Area
             </div>
             <div class="swiper-slide">
                 <div class="hero-inner">
-                    <div class="th-hero-bg" data-bg-src="assets/img/hero/hero_bg_1_3.jpg">
-                        <img src="assets/img/hero/hero_overlay_1.png" alt="Hero Image">
+                    <div class="th-hero-bg" data-bg-src="information/assets/img/hero/hero_bg_1_3.jpg">
+                        <img src="information/assets/img/catchytat/hero1/hero_e.png" alt="Hero Image">
                         <div class="bubble"></div>
                     </div>
                     <div class="container">
@@ -66,8 +66,8 @@ Hero Area
                                 for your laundry service will depend on your specific brand, target audience, and the
                                 unique qualities of your service.</p>
                             <div class="btn-group" data-ani="slideinup" data-ani-delay="0.9s">
-                                <a href="about.html" class="th-btn style2" data-ani="slideinup" data-ani-delay="0.9s">Discover
-                                    More</a>
+                                <a href="{{route('serviceOrder')}}" class="th-btn style2" data-ani="slideinup" data-ani-delay="0.9s">Wash My Clothes
+                                </a>
                                 <a href="contact.html" class="th-btn style5" data-ani="slideinup" data-ani-delay="0.9s">Contact
                                     Us</a>
                             </div>
@@ -78,14 +78,14 @@ Hero Area
         </div>
     </div>
     <div class="hero-animated-bubble">
-        <img src="assets/img/shape/bubble_1.png" alt="Laun">
-        <img src="assets/img/shape/bubble_2.png" alt="Laun">
-        <img src="assets/img/shape/bubble_3.png" alt="Laun">
-        <img src="assets/img/shape/bubble_4.png" alt="Laun">
-        <img src="assets/img/shape/bubble_5.png" alt="Laun">
-        <img src="assets/img/shape/bubble_6.png" alt="Laun">
-        <img src="assets/img/shape/bubble_7.png" alt="Laun">
-        <img src="assets/img/shape/bubble_8.png" alt="Laun">
+        <img src="information/assets/img/shape/bubble_1.png" alt="Laun">
+        <img src="information/assets/img/shape/bubble_2.png" alt="Laun">
+        <img src="information/assets/img/shape/bubble_3.png" alt="Laun">
+        <img src="information/assets/img/shape/bubble_4.png" alt="Laun">
+        <img src="information/assets/img/shape/bubble_5.png" alt="Laun">
+        <img src="information/assets/img/shape/bubble_6.png" alt="Laun">
+        <img src="information/assets/img/shape/bubble_7.png" alt="Laun">
+        <img src="information/assets/img/shape/bubble_8.png" alt="Laun">
     </div>
     <div class="icon-box">
         <button data-slider-prev="#heroSlide1" class="slider-arrow default"><i class="far fa-arrow-left"></i></button>
@@ -94,7 +94,7 @@ Hero Area
 
 </div>
 <!--======== / Hero Section ========--><!--==============================
-About Area  
+About Area
 ==============================-->
 <div class="about-sec overflow-hidden space-top" id="about-sec">
     <div class="container">
@@ -102,13 +102,13 @@ About Area
             <div class="col-xl-6 wow fadeInLeft">
                 <div class="img-box1">
                     <div class="img1">
-                        <img src="assets/img/normal/about_1.jpg" alt="About">
+                        <img src="information/assets/img/normal/about_1.jpg" alt="About">
                     </div>
                     <div class="img2">
-                        <img src="assets/img/normal/about_2.jpg" alt="About">
+                        <img src="information/assets/img/normal/about_2.jpg" alt="About">
                     </div>
                     <div class="th-experience jump">
-                        <h3 class="experience-year"><span class="counter-number">24</span>+</h3>
+                        <h3 class="experience-year"><span class="counter-number">10</span>+</h3>
                         <p class="experience-text">Years</p>
                     </div>
                 </div>
@@ -117,10 +117,9 @@ About Area
                 <div class="ps-xl-4 wow fadeInRight">
                     <div class="title-area mb-25">
                         <span class="sub-title style1">About Us</span>
-                        <h2 class="sec-title mb-20">Experience the Pinnacle of Laundry Excellence</h2>
-                        <p class="about-desc">Specify the range of services your laundry offers, including wash and
-                            fold, dry cleaning, ironing, stain removal, and any specialized treatments for delicate
-                            fabrics or special garments.</p>
+                        <h2 class="sec-title mb-20">Discover Laundry Excellence with catchyTat</h2>
+<p class="about-desc">At catchyTat, we offer a comprehensive range of premium laundry services including wash and fold, dry cleaning, professional ironing, stain removal, and expert care for delicate fabrics and special garments. Trust us to deliver exceptional results every time, with convenient pickup and delivery for your convenience.</p>
+
                     </div>
                     <div class="checklist list-two-column">
                         <ul>
@@ -133,7 +132,7 @@ About Area
                         </ul>
                     </div>
                     <div class="btn-group mt-30 justify-content-start">
-                        <a href="about.html" class="th-btn">More About Us</a>
+                        <a href="{{route('serviceOrder')}}" class="th-btn">Wash My Clothes</a>
                     </div>
                 </div>
             </div>
@@ -141,7 +140,7 @@ About Area
     </div>
 
 </div><!--==============================
-feature Area  
+feature Area
 ==============================-->
 <div class="overflow-hidden space" id="feature-area">
     <div class="container">
@@ -149,7 +148,7 @@ feature Area
             <div class="col-md-6 col-lg-4">
                 <div class="feature-item wow fadeInUp">
                     <div class="feature-item_icon">
-                        <img src="assets/img/icon/feature_1_1.svg" alt="icon">
+                        <img src="information/assets/img/icon/feature_1_1.svg" alt="icon">
                     </div>
                     <div class="media-body">
                         <h3 class="box-title">100% Happiness Guarantee</h3>
@@ -160,31 +159,31 @@ feature Area
             <div class="col-md-6 col-lg-4">
                 <div class="feature-item wow fadeInDown">
                     <div class="feature-item_icon">
-                        <img src="assets/img/icon/feature_1_2.svg" alt="icon">
+                        <img src="information/assets/img/icon/feature_1_2.svg" alt="icon">
                     </div>
                     <div class="media-body">
                         <h3 class="box-title">Free Collection & Delivery</h3>
-                        <p class="feature-item_text">Emphasize the use of high-quality detergents, fabric softeners.</p>
+                        <p class="feature-item_text">Enjoy hassle-free laundry with pickup and delivery at your convenience .</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4">
                 <div class="feature-item wow fadeInUp">
                     <div class="feature-item_icon">
-                        <img src="assets/img/icon/feature_1_3.svg" alt="icon">
+                        <img src="information/assets/img/icon/feature_1_3.svg" alt="icon">
                     </div>
                     <div class="media-body">
                         <h3 class="box-title">24/7 Dedicated Support</h3>
-                        <p class="feature-item_text">Emphasize the use of high-quality detergents, fabric softeners.</p>
+                        <p class="feature-item_text">Always here to assist you</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div><!--==============================
-Service Area  
+Service Area
 ==============================-->
-<section class="bg-top-center space" data-bg-src="assets/img/bg/service_bg_1.jpg">
+{{-- <section class="bg-top-center space" data-bg-src="information/assets/img/bg/service_bg_1.jpg">
     <div class="container">
         <div class="title-area text-center">
             <span class="sub-title">Our Best Services</span>
@@ -197,13 +196,13 @@ Service Area
                         <div class="service-box">
                             <div class="service-box_wrapper">
                                 <div class="service-box_img">
-                                    <img src="assets/img/service/service_box_1.jpg" alt="img">
+                                    <img src="information/assets/img/service/service_box_1.jpg" alt="img">
                                 </div>
                                 <div class="service-box_icon">
-                                    <img src="assets/img/icon/service_box_1.svg" alt="Icon">
+                                    <img src="information/assets/img/icon/service_box_1.svg" alt="Icon">
                                 </div>
                             </div>
-                            <div class="box-content" data-bg-src="assets/img/shape/service_shape_1.png">
+                            <div class="box-content" data-bg-src="information/assets/img/shape/service_shape_1.png">
                                 <h3 class="box-title"><a href="service-details.html">Dry Cleaning</a></h3>
                                 <p class="service-box_text">Dry cleaning is a method of cleaning clothing and textiles that uses a solvent other than water to remove dirt, stains.</p>
                                 <a href="service-details.html" class="th-btn border">Read More</a>
@@ -215,13 +214,13 @@ Service Area
                         <div class="service-box">
                             <div class="service-box_wrapper">
                                 <div class="service-box_img">
-                                    <img src="assets/img/service/service_box_2.jpg" alt="img">
+                                    <img src="information/assets/img/service/service_box_2.jpg" alt="img">
                                 </div>
                                 <div class="service-box_icon">
-                                    <img src="assets/img/icon/service_box_2.svg" alt="Icon">
+                                    <img src="information/assets/img/icon/service_box_2.svg" alt="Icon">
                                 </div>
                             </div>
-                            <div class="box-content" data-bg-src="assets/img/shape/service_shape_1.png">
+                            <div class="box-content" data-bg-src="information/assets/img/shape/service_shape_1.png">
                                 <h3 class="box-title"><a href="service-details.html">Wash & Fold</a></h3>
                                 <p class="service-box_text">Wash and fold (also known as drop-off laundry or fluff and fold) is a laundry service offered by many laundromats.</p>
                                 <a href="service-details.html" class="th-btn border">Read More</a>
@@ -233,13 +232,13 @@ Service Area
                         <div class="service-box">
                             <div class="service-box_wrapper">
                                 <div class="service-box_img">
-                                    <img src="assets/img/service/service_box_3.jpg" alt="img">
+                                    <img src="information/assets/img/service/service_box_3.jpg" alt="img">
                                 </div>
                                 <div class="service-box_icon">
-                                    <img src="assets/img/icon/service_box_3.svg" alt="Icon">
+                                    <img src="information/assets/img/icon/service_box_3.svg" alt="Icon">
                                 </div>
                             </div>
-                            <div class="box-content" data-bg-src="assets/img/shape/service_shape_1.png">
+                            <div class="box-content" data-bg-src="information/assets/img/shape/service_shape_1.png">
                                 <h3 class="box-title"><a href="service-details.html">Ironing/Pressing</a></h3>
                                 <p class="service-box_text">Ironing or pressing is the process of using a heated iron or press to smooth out wrinkles, creases, and remove fabric</p>
                                 <a href="service-details.html" class="th-btn border">Read More</a>
@@ -251,13 +250,13 @@ Service Area
                         <div class="service-box">
                             <div class="service-box_wrapper">
                                 <div class="service-box_img">
-                                    <img src="assets/img/service/service_box_4.jpg" alt="img">
+                                    <img src="information/assets/img/service/service_box_4.jpg" alt="img">
                                 </div>
                                 <div class="service-box_icon">
-                                    <img src="assets/img/icon/service_box_4.svg" alt="Icon">
+                                    <img src="information/assets/img/icon/service_box_4.svg" alt="Icon">
                                 </div>
                             </div>
-                            <div class="box-content" data-bg-src="assets/img/shape/service_shape_1.png">
+                            <div class="box-content" data-bg-src="information/assets/img/shape/service_shape_1.png">
                                 <h3 class="box-title"><a href="service-details.html">Garments Transformed</a></h3>
                                 <p class="service-box_text">Garments Transformed" is a term that can refer to various aspects of clothing and fashion. It may be used in different.</p>
                                 <a href="service-details.html" class="th-btn border">Read More</a>
@@ -269,13 +268,13 @@ Service Area
                         <div class="service-box">
                             <div class="service-box_wrapper">
                                 <div class="service-box_img">
-                                    <img src="assets/img/service/service_box_5.jpg" alt="img">
+                                    <img src="information/assets/img/service/service_box_5.jpg" alt="img">
                                 </div>
                                 <div class="service-box_icon">
-                                    <img src="assets/img/icon/service_box_5.svg" alt="Icon">
+                                    <img src="information/assets/img/icon/service_box_5.svg" alt="Icon">
                                 </div>
                             </div>
-                            <div class="box-content" data-bg-src="assets/img/shape/service_shape_1.png">
+                            <div class="box-content" data-bg-src="information/assets/img/shape/service_shape_1.png">
                                 <h3 class="box-title"><a href="service-details.html">Household Textile Care</a></h3>
                                 <p class="service-box_text">Household textile care refers to the maintenance and cleaning of various textiles and fabrics used in and around a home</p>
                                 <a href="service-details.html" class="th-btn border">Read More</a>
@@ -287,13 +286,13 @@ Service Area
                         <div class="service-box">
                             <div class="service-box_wrapper">
                                 <div class="service-box_img">
-                                    <img src="assets/img/service/service_box_1.jpg" alt="img">
+                                    <img src="information/assets/img/service/service_box_1.jpg" alt="img">
                                 </div>
                                 <div class="service-box_icon">
-                                    <img src="assets/img/icon/service_box_6.svg" alt="Icon">
+                                    <img src="information/assets/img/icon/service_box_6.svg" alt="Icon">
                                 </div>
                             </div>
-                            <div class="box-content" data-bg-src="assets/img/shape/service_shape_1.png">
+                            <div class="box-content" data-bg-src="information/assets/img/shape/service_shape_1.png">
                                 <h3 class="box-title"><a href="service-details.html">Leather & Suede Care</a></h3>
                                 <p class="service-box_text">Leather and suede are durable and stylish materials often used in clothing, footwear, accessories, and furniture</p>
                                 <a href="service-details.html" class="th-btn border">Read More</a>
@@ -307,33 +306,33 @@ Service Area
             <button data-slider-next="#serviceSlider1" class="slider-arrow slider-next"><i class="far fa-arrow-right"></i></button>
         </div>
     </div>
-</section>
+</section> --}}
 <!--==============================
-Contact Info Area  
+Contact Info Area
 ==============================-->
 <div class="space-bottom">
     <div class="container">
         <div class="row gy-4 justify-content-center">
             <div class="col-lg-6">
-                <div class="contact-feature" data-bg-src="assets/img/bg/contact_info_bg_1.jpg">
+                <div class="contact-feature" data-bg-src="information/assets/img/catchytat/hero1/outgoing_3575528.png">
                     <div class="box-icon">
                         <i class="fa-light fa-phone"></i>
                     </div>
                     <div class="media-body">
                         <span class="contact-feature_subtitle">Call Us For Service</span>
-                        <h3 class="box-title"><a href="tel:+1636543569">+(163)-654-3569</a></h3>
+                        <h3 class="box-title"><a href="tel:+1636543569">+91 90562 23996</a></h3>
                         <p class="box-text">Call 24/7 Anytime For Our Laundry Servicing.</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="contact-feature" data-bg-src="assets/img/bg/contact_info_bg_1.jpg">
+                <div class="contact-feature" data-bg-src="information/assets/img/catchytat/hero1/email_873388.png">
                     <div class="box-icon">
                         <i class="fa-light fa-envelope"></i>
                     </div>
                     <div class="media-body">
                         <span class="contact-feature_subtitle">Email Us Anytime For Service</span>
-                        <h3 class="box-title"><a href="mailto:info@Laun.com">info@laun.com</a>s</h3>
+                        <h3 class="box-title"><a href="mailto:connect@catchytat.com">connect@catchytat.com</a></h3>
                         <p class="box-text">Email 24/7 Anytime For Our Laundry Servicing. </p>
                     </div>
                 </div>
@@ -341,9 +340,9 @@ Contact Info Area
         </div>
     </div>
 </div> <!--==============================
-Feature Area  
+Feature Area
 ==============================-->
-<div class="features-area position-relative overflow-hidden bg-top-center space" data-bg-src="assets/img/bg/why_bg_1.png">
+<div class="features-area position-relative overflow-hidden bg-top-center space" data-bg-src="information/assets/img/bg/why_bg_1.png">
     <div class="container">
         <div class="row">
             <div class="col-xl-9">
@@ -359,25 +358,25 @@ Feature Area
                     </div>
                     <div class="checklist list-two-column why-checklist">
                         <ul>
-                            <li><span class="check-img"><img src="assets/img/icon/check.svg" alt=""></span> Quality
+                            <li><span class="check-img"><img src="information/assets/img/icon/check.svg" alt=""></span> Quality
                                 Assurance</li>
-                            <li><span class="check-img"><img src="assets/img/icon/check.svg" alt=""></span>Expert
+                            <li><span class="check-img"><img src="information/assets/img/icon/check.svg" alt=""></span>Expert
                                 Handling</li>
-                            <li><span class="check-img"><img src="assets/img/icon/check.svg" alt=""></span>Transparent
+                            <li><span class="check-img"><img src="information/assets/img/icon/check.svg" alt=""></span>Transparent
                                 Pricing</li>
-                            <li><span class="check-img"><img src="assets/img/icon/check.svg" alt=""></span>Folding
+                            <li><span class="check-img"><img src="information/assets/img/icon/check.svg" alt=""></span>Folding
                                 Preferences</li>
                         </ul>
                     </div>
                     <div class="btn-group mt-40">
-                        <a href="contact.html" class="th-btn style3">Make An Appointment</a>
+                        <a href="{{route('serviceOrder')}}" class="th-btn style3">Wash My Clothes</a>
                         <div class="about-profile">
                             <div class="about-avater">
-                                <img src="assets/img/shape/about-thumb_1.png" alt="about">
+                                <img src="information/assets/img/catchytat/hero1/teamwork_1256650.png" alt="about">
                             </div>
                             <div class="media-body">
-                                <h5 class="box-title mb-0">Alex Hamilton</h5>
-                                <p class="desig mb-0">Company Director by Laundry Service</p>
+                                <h5 class="box-title mb-0">Nitin Vaid</h5>
+                                <p class="desig mb-0">Managing Director</p>
                             </div>
                         </div>
                     </div>
@@ -390,10 +389,10 @@ Feature Area
             </div>
         </div>
     </div>
-    <div class="shape-mockup jump d-none d-xl-block" data-bottom="8%" data-right="0%"><img src="assets/img/shape/like.png" alt="shape">
+    <div class="shape-mockup jump d-none d-xl-block" data-bottom="8%" data-right="0%"><img src="information/assets/img/shape/like.png" alt="shape">
     </div>
 </div><!--==============================
-Process Area  
+Process Area
 ==============================-->
 <section class="position-relative overflow-hidden space-bottom">
     <div class="container">
@@ -407,7 +406,7 @@ Process Area
                 <div class="col-xl-4 col-md-6">
                     <div class="process-card ">
                         <div class="box-icon">
-                            <img src="assets/img/icon/process_card_1.svg" alt="icon">
+                            <img src="information/assets/img/icon/process_card_1.svg" alt="icon">
                         </div>
                         <div class="box-content">
                             <div class="box-top">
@@ -421,7 +420,7 @@ Process Area
                 <div class="col-xl-4 col-md-6">
                     <div class="process-card active">
                         <div class="box-icon">
-                            <img src="assets/img/icon/process_card_2.svg" alt="icon">
+                            <img src="information/assets/img/icon/process_card_2.svg" alt="icon">
                         </div>
                         <div class="box-content">
                             <div class="box-top">
@@ -435,7 +434,7 @@ Process Area
                 <div class="col-xl-4 col-md-6">
                     <div class="process-card ">
                         <div class="box-icon">
-                            <img src="assets/img/icon/process_card_3.svg" alt="icon">
+                            <img src="information/assets/img/icon/process_card_3.svg" alt="icon">
                         </div>
                         <div class="box-content">
                             <div class="box-top">
@@ -450,11 +449,11 @@ Process Area
         </div>
     </div>
 </section><!--==============================
-Cta Area  
+Cta Area
 ==============================-->
 <section class="cta-sec" data-pos-for=".team-area" data-sec-pos="bottom-half">
     <div class="container th-container">
-        <div class="cta-area" data-overlay="title" data-opacity="9" data-bg-src="assets/img/bg/cta_bg_1.jpg">
+        <div class="cta-area" data-overlay="title" data-opacity="9" data-bg-src="information/assets/img/bg/cta_bg_1.jpg">
             <div class="row align-items-center">
                 <div class="col-xl-7 col-lg-6 mb-5 mb-lg-0">
                     <div class="title-area mb-0 text-center text-lg-start">
@@ -472,9 +471,9 @@ Cta Area
         </div>
     </div>
 </section><!--==============================
-Team Area  
+Team Area
 ==============================-->
-<section class="team-area space" data-bg-src="assets/img/bg/team_bg_1.jpg">
+<section class="team-area space" data-bg-src="information/assets/img/bg/team_bg_1.jpg">
     <div class="container z-index-common">
         <div class="title-area text-center">
             <span class="sub-title">Expert Team</span>
@@ -487,7 +486,7 @@ Team Area
                     <div class="swiper-slide">
                         <div class="th-team team-box">
                             <div class="team-img">
-                                <img src="assets/img/team/team_1_1.jpg" alt="Team">
+                                <img src="information/assets/img/team/team_1_1.jpg" alt="Team">
                                 <div class="th-social">
                                     <a target="_blank" href="https://facebook.com/" tabindex="0"><i class="fab fa-facebook-f"></i></a>
                                     <a target="_blank" href="https://twitter.com/" tabindex="0"><i class="fab fa-twitter"></i></a>
@@ -508,7 +507,7 @@ Team Area
                     <div class="swiper-slide">
                         <div class="th-team team-box">
                             <div class="team-img">
-                                <img src="assets/img/team/team_1_2.jpg" alt="Team">
+                                <img src="information/assets/img/team/team_1_2.jpg" alt="Team">
                                 <div class="th-social">
                                     <a target="_blank" href="https://facebook.com/" tabindex="0"><i class="fab fa-facebook-f"></i></a>
                                     <a target="_blank" href="https://twitter.com/" tabindex="0"><i class="fab fa-twitter"></i></a>
@@ -529,7 +528,7 @@ Team Area
                     <div class="swiper-slide">
                         <div class="th-team team-box">
                             <div class="team-img">
-                                <img src="assets/img/team/team_1_3.jpg" alt="Team">
+                                <img src="information/assets/img/team/team_1_3.jpg" alt="Team">
                                 <div class="th-social">
                                     <a target="_blank" href="https://facebook.com/" tabindex="0"><i class="fab fa-facebook-f"></i></a>
                                     <a target="_blank" href="https://twitter.com/" tabindex="0"><i class="fab fa-twitter"></i></a>
@@ -550,7 +549,7 @@ Team Area
                     <div class="swiper-slide">
                         <div class="th-team team-box">
                             <div class="team-img">
-                                <img src="assets/img/team/team_1_4.jpg" alt="Team">
+                                <img src="information/assets/img/team/team_1_4.jpg" alt="Team">
                                 <div class="th-social">
                                     <a target="_blank" href="https://facebook.com/" tabindex="0"><i class="fab fa-facebook-f"></i></a>
                                     <a target="_blank" href="https://twitter.com/" tabindex="0"><i class="fab fa-twitter"></i></a>
@@ -571,7 +570,7 @@ Team Area
                     <div class="swiper-slide">
                         <div class="th-team team-box">
                             <div class="team-img">
-                                <img src="assets/img/team/team_1_1.jpg" alt="Team">
+                                <img src="information/assets/img/team/team_1_1.jpg" alt="Team">
                                 <div class="th-social">
                                     <a target="_blank" href="https://facebook.com/" tabindex="0"><i class="fab fa-facebook-f"></i></a>
                                     <a target="_blank" href="https://twitter.com/" tabindex="0"><i class="fab fa-twitter"></i></a>
@@ -663,7 +662,7 @@ Faq Area
             <div class="col-xl-6">
                 <div class="faq-img1 ps-xl-4">
                     <div class="img1">
-                        <img src="assets/img/normal/faq_1_1.png" alt="faq">
+                        <img src="information/assets/img/normal/faq_1_1.png" alt="faq">
                     </div>
                 </div>
             </div>
@@ -671,7 +670,7 @@ Faq Area
     </div>
 </div>
 <!--==============================
-Counter Area  
+Counter Area
 ==============================-->
 <div class="overflow-hidden space-bottom">
     <div class="container">
@@ -700,10 +699,10 @@ Counter Area
         </div>
     </div>
 </div><!--==============================
-Testimonial Area  
+Testimonial Area
 ==============================-->
-<section class="testi-area " id="testi-sec" data-bg-src="assets/img/bg/testi_bg_1.jpg">
-    <div class="shape-mockup" data-bottom="0" data-right="0"><img src="assets/img/shape/testi_img_1.png" alt="shape">
+<section class="testi-area " id="testi-sec" data-bg-src="information/assets/img/bg/testi_bg_1.jpg">
+    <div class="shape-mockup" data-bottom="0" data-right="0"><img src="information/assets/img/shape/testi_img_1.png" alt="shape">
     </div>
     <div class="container">
         <div class="row align-items-center">
@@ -720,7 +719,7 @@ Testimonial Area
                                     <div class="testi-card_wrapp">
                                         <div class="testi-card_profile">
                                             <div class="testi-card_avater global-img">
-                                                <img src="assets/img/testimonial/testi_1_1.jpg" alt="Avater">
+                                                <img src="information/assets/img/testimonial/testi_1_1.jpg" alt="Avater">
                                             </div>
                                             <div class="star-icon">
                                                 <a href="#"><i class="fa-solid fa-star"></i></a>
@@ -738,7 +737,7 @@ Testimonial Area
                                                     <span class="testi-card_desig">Founder CEO</span>
                                                 </div>
                                                 <div class="testi-quote">
-                                                    <img src="assets/img/icon/quote.svg" alt="">
+                                                    <img src="information/assets/img/icon/quote.svg" alt="">
                                                 </div>
                                             </div>
                                         </div>
@@ -750,7 +749,7 @@ Testimonial Area
                                     <div class="testi-card_wrapp">
                                         <div class="testi-card_profile">
                                             <div class="testi-card_avater global-img">
-                                                <img src="assets/img/testimonial/testi_1_2.jpg" alt="Avater">
+                                                <img src="information/assets/img/testimonial/testi_1_2.jpg" alt="Avater">
                                             </div>
                                             <div class="star-icon">
                                                 <a href="#"><i class="fa-solid fa-star"></i></a>
@@ -768,7 +767,7 @@ Testimonial Area
                                                     <span class="testi-card_desig">Project Manager</span>
                                                 </div>
                                                 <div class="testi-quote">
-                                                    <img src="assets/img/icon/quote.svg" alt="">
+                                                    <img src="information/assets/img/icon/quote.svg" alt="">
                                                 </div>
                                             </div>
                                         </div>
@@ -818,7 +817,7 @@ Testimonial Area
         </div>
     </div>
 </section><!--==============================
-Price Area  
+Price Area
 ==============================-->
 <section class="space">
     <div class="container">
@@ -895,7 +894,7 @@ Price Area
     </div>
 </section>
 <!--==============================
-Brand Area  
+Brand Area
 ==============================-->
 <div class="brand-area py-5 mt-1 bg-theme2">
     <div class="container th-container">
@@ -903,52 +902,52 @@ Brand Area
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="brand-box">
-                        <img src="assets/img/brand/brand_1_1.svg" alt="Brand Logo">
+                        <img src="information/assets/img/brand/brand_1_1.svg" alt="Brand Logo">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="brand-box">
-                        <img src="assets/img/brand/brand_1_2.svg" alt="Brand Logo">
+                        <img src="information/assets/img/brand/brand_1_2.svg" alt="Brand Logo">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="brand-box">
-                        <img src="assets/img/brand/brand_1_3.svg" alt="Brand Logo">
+                        <img src="information/assets/img/brand/brand_1_3.svg" alt="Brand Logo">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="brand-box">
-                        <img src="assets/img/brand/brand_1_4.svg" alt="Brand Logo">
+                        <img src="information/assets/img/brand/brand_1_4.svg" alt="Brand Logo">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="brand-box">
-                        <img src="assets/img/brand/brand_1_5.svg" alt="Brand Logo">
+                        <img src="information/assets/img/brand/brand_1_5.svg" alt="Brand Logo">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="brand-box">
-                        <img src="assets/img/brand/brand_1_6.svg" alt="Brand Logo">
+                        <img src="information/assets/img/brand/brand_1_6.svg" alt="Brand Logo">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="brand-box">
-                        <img src="assets/img/brand/brand_1_7.svg" alt="Brand Logo">
+                        <img src="information/assets/img/brand/brand_1_7.svg" alt="Brand Logo">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="brand-box">
-                        <img src="assets/img/brand/brand_1_8.svg" alt="Brand Logo">
+                        <img src="information/assets/img/brand/brand_1_8.svg" alt="Brand Logo">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="brand-box">
-                        <img src="assets/img/brand/brand_1_1.svg" alt="Brand Logo">
+                        <img src="information/assets/img/brand/brand_1_1.svg" alt="Brand Logo">
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class="brand-box">
-                        <img src="assets/img/brand/brand_1_2.svg" alt="Brand Logo">
+                        <img src="information/assets/img/brand/brand_1_2.svg" alt="Brand Logo">
                     </div>
                 </div>
             </div>
@@ -956,9 +955,9 @@ Brand Area
         </div>
     </div>
 </div> <!--==============================
-Blog Area  
+Blog Area
 ==============================-->
-<section class="overflow-hidden space" id="blog-sec" data-bg-src="assets/img/bg/blog_bg_1.jpg">
+<section class="overflow-hidden space" id="blog-sec" data-bg-src="information/assets/img/bg/blog_bg_1.jpg">
     <div class="container">
         <div class="row justify-content-lg-between justify-content-center align-items-end">
             <div class="col-lg">
@@ -979,7 +978,7 @@ Blog Area
                     <div class="swiper-slide">
                         <div class="blog-card">
                             <div class="blog-img">
-                                <img src="assets/img/blog/blog_1_1.jpg" alt="blog image">
+                                <img src="information/assets/img/blog/blog_1_1.jpg" alt="blog image">
                             </div>
                             <div class="blog-content">
                                 <div class="blog-meta">
@@ -995,7 +994,7 @@ Blog Area
                     <div class="swiper-slide">
                         <div class="blog-card">
                             <div class="blog-img">
-                                <img src="assets/img/blog/blog_1_2.jpg" alt="blog image">
+                                <img src="information/assets/img/blog/blog_1_2.jpg" alt="blog image">
                             </div>
                             <div class="blog-content">
                                 <div class="blog-meta">
@@ -1011,7 +1010,7 @@ Blog Area
                     <div class="swiper-slide">
                         <div class="blog-card">
                             <div class="blog-img">
-                                <img src="assets/img/blog/blog_1_3.jpg" alt="blog image">
+                                <img src="information/assets/img/blog/blog_1_3.jpg" alt="blog image">
                             </div>
                             <div class="blog-content">
                                 <div class="blog-meta">
@@ -1027,7 +1026,7 @@ Blog Area
                     <div class="swiper-slide">
                         <div class="blog-card">
                             <div class="blog-img">
-                                <img src="assets/img/blog/blog_1_4.jpg" alt="blog image">
+                                <img src="information/assets/img/blog/blog_1_4.jpg" alt="blog image">
                             </div>
                             <div class="blog-content">
                                 <div class="blog-meta">
@@ -1043,7 +1042,7 @@ Blog Area
                     <div class="swiper-slide">
                         <div class="blog-card">
                             <div class="blog-img">
-                                <img src="assets/img/blog/blog_1_1.jpg" alt="blog image">
+                                <img src="information/assets/img/blog/blog_1_1.jpg" alt="blog image">
                             </div>
                             <div class="blog-content">
                                 <div class="blog-meta">
@@ -1059,7 +1058,7 @@ Blog Area
                     <div class="swiper-slide">
                         <div class="blog-card">
                             <div class="blog-img">
-                                <img src="assets/img/blog/blog_1_2.jpg" alt="blog image">
+                                <img src="information/assets/img/blog/blog_1_2.jpg" alt="blog image">
                             </div>
                             <div class="blog-content">
                                 <div class="blog-meta">
@@ -1081,7 +1080,7 @@ Blog Area
 </section><!--==============================
 Footer Area
 ==============================-->
-<footer class="footer-wrapper footer-layout1" data-bg-src="assets/img/bg/footer_bg_1.jpg">
+<footer class="footer-wrapper footer-layout1" data-bg-src="information/assets/img/bg/footer_bg_1.jpg">
     <div class="widget-area">
         <div class="container">
             <div class="row justify-content-between">
@@ -1089,7 +1088,7 @@ Footer Area
                     <div class="widget footer-widget">
                         <div class="th-widget-about">
                             <div class="about-logo">
-                                <a href="home-laundry-services.html"><img src="assets/img/logo-white.svg" alt="Laun"></a>
+                                <a href="home-laundry-services.html"><img src="information/assets/img/logo-white.svg" alt="Laun"></a>
                             </div>
                             <p class="about-text">Begin by scheduling your laundry service. You can choose from our convenient options Any
                                 visible stains are pre-treated to ensure.</p>
@@ -1185,14 +1184,14 @@ Footer Area
         <div class="bubble-9"></div>
         <div class="bubble-10"></div>
     </div>
-    <div class="shape-mockup jump d-none d-xl-block" data-bottom="0%" data-left="0%"><img src="assets/img/shape/footer_shape_1.png" alt="shape">
+    <div class="shape-mockup jump d-none d-xl-block" data-bottom="0%" data-left="0%"><img src="information/assets/img/shape/footer_shape_1.png" alt="shape">
     </div>
-    <div class="shape-mockup jump d-none d-xl-block" data-bottom="0%" data-right="0%"><img src="assets/img/shape/footer_shape_2.png" alt="shape">
+    <div class="shape-mockup jump d-none d-xl-block" data-bottom="0%" data-right="0%"><img src="information/assets/img/shape/footer_shape_2.png" alt="shape">
     </div>
 </footer>
 
 <!--********************************
-        Code End  Here 
+        Code End  Here
 ******************************** -->
 
 <!-- Scroll To Top -->
