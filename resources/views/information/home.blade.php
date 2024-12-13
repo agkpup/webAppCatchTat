@@ -342,7 +342,7 @@ Contact Info Area
 </div> <!--==============================
 Feature Area
 ==============================-->
-<div class="features-area position-relative overflow-hidden bg-top-center space" data-bg-src="information/assets/img/bg/why_bg_1.png">
+<div class="features-area position-relative overflow-hidden bg-top-center space" data-bg-src="information/assets/img/catchytat/hero1/elegant2.png">
     <div class="container">
         <div class="row">
             <div class="col-xl-9">
@@ -704,8 +704,8 @@ Counter Area
 </div><!--==============================
 Testimonial Area
 ==============================-->
-<section class="testi-area " id="testi-sec" data-bg-src="information/assets/img/bg/testi_bg_1.jpg">
-    <div class="shape-mockup" data-bottom="0" data-right="0"><img src="information/assets/img/shape/testi_img_1.png" alt="shape">
+<section class="testi-area " id="testi-sec" data-bg-src="information/assets/img/catchytat/hero1/cloth.png">
+    <div class="shape-mockup" data-bottom="0" data-right="0"><img src="information/assets/img/catchytat/hero1/didi.png" alt="shape">
     </div>
     <div class="container">
         <div class="row align-items-center">
