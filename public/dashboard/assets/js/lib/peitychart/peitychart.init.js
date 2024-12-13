@@ -49,7 +49,7 @@ $(function() {
     })
 
     $(".pie-colours-1").peity("pie", {
-        fill: ["cyan", "magenta", "yellow", "black"],
+        fill: ["cyan", "magenta", "#ffa31a", "black"],
         width: '100',
         height: '100'
     })

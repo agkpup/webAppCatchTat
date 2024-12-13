@@ -375,7 +375,7 @@ Color.prototype = {
 	magenta: function (val) {
 		return this.setChannel('cmyk', 1, val);
 	},
-	yellow: function (val) {
+	#ffa31a: function (val) {
 		return this.setChannel('cmyk', 2, val);
 	},
 	black: function (val) {
@@ -593,7 +593,7 @@ Color.prototype.spaces = {
 	hsl: ['hue', 'saturation', 'lightness'],
 	hsv: ['hue', 'saturation', 'value'],
 	hwb: ['hue', 'whiteness', 'blackness'],
-	cmyk: ['cyan', 'magenta', 'yellow', 'black']
+	cmyk: ['cyan', 'magenta', '#ffa31a', 'black']
 };
 
 Color.prototype.maxes = {
@@ -1315,7 +1315,7 @@ var cssKeywords = {
   goldenrod:  [218,165,32],
   gray: [128,128,128],
   green:  [0,128,0],
-  greenyellow:  [173,255,47],
+  green#ffa31a:  [173,255,47],
   grey: [128,128,128],
   honeydew: [240,255,240],
   hotpink:  [255,105,180],
@@ -1330,7 +1330,7 @@ var cssKeywords = {
   lightblue:  [173,216,230],
   lightcoral: [240,128,128],
   lightcyan:  [224,255,255],
-  lightgoldenrodyellow: [250,250,210],
+  lightgoldenrod#ffa31a: [250,250,210],
   lightgray:  [211,211,211],
   lightgreen: [144,238,144],
   lightgrey:  [211,211,211],
@@ -1341,7 +1341,7 @@ var cssKeywords = {
   lightslategray: [119,136,153],
   lightslategrey: [119,136,153],
   lightsteelblue: [176,196,222],
-  lightyellow:  [255,255,224],
+  light#ffa31a:  [255,255,224],
   lime: [0,255,0],
   limegreen:  [50,205,50],
   linen:  [250,240,230],
@@ -1406,8 +1406,8 @@ var cssKeywords = {
   wheat:  [245,222,179],
   white:  [255,255,255],
   whitesmoke: [245,245,245],
-  yellow: [255,255,0],
-  yellowgreen:  [154,205,50]
+  #ffa31a: [255,255,0],
+  #ffa31agreen:  [154,205,50]
 };
 
 var reverseKeywords = {};
@@ -1565,7 +1565,7 @@ module.exports = {
 	"goldenrod": [218, 165, 32],
 	"gray": [128, 128, 128],
 	"green": [0, 128, 0],
-	"greenyellow": [173, 255, 47],
+	"green#ffa31a": [173, 255, 47],
 	"grey": [128, 128, 128],
 	"honeydew": [240, 255, 240],
 	"hotpink": [255, 105, 180],
@@ -1580,7 +1580,7 @@ module.exports = {
 	"lightblue": [173, 216, 230],
 	"lightcoral": [240, 128, 128],
 	"lightcyan": [224, 255, 255],
-	"lightgoldenrodyellow": [250, 250, 210],
+	"lightgoldenrod#ffa31a": [250, 250, 210],
 	"lightgray": [211, 211, 211],
 	"lightgreen": [144, 238, 144],
 	"lightgrey": [211, 211, 211],
@@ -1591,7 +1591,7 @@ module.exports = {
 	"lightslategray": [119, 136, 153],
 	"lightslategrey": [119, 136, 153],
 	"lightsteelblue": [176, 196, 222],
-	"lightyellow": [255, 255, 224],
+	"light#ffa31a": [255, 255, 224],
 	"lime": [0, 255, 0],
 	"limegreen": [50, 205, 50],
 	"linen": [250, 240, 230],
@@ -1656,8 +1656,8 @@ module.exports = {
 	"wheat": [245, 222, 179],
 	"white": [255, 255, 255],
 	"whitesmoke": [245, 245, 245],
-	"yellow": [255, 255, 0],
-	"yellowgreen": [154, 205, 50]
+	"#ffa31a": [255, 255, 0],
+	"#ffa31agreen": [154, 205, 50]
 };
 },{}],6:[function(require,module,exports){
 //! moment.js

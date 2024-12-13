@@ -47,8 +47,8 @@
                                 <a href="javascript:void(0)" class="quantity__plus add">
                                     <span>
                                         <svg  width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M1 4H7" stroke="#e7ef04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M4 7V1" stroke="#e7ef04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M1 4H7" stroke="#ffa31a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M4 7V1" stroke="#ffa31a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                         </svg>
                                     </span>
                                 </a>
@@ -83,8 +83,8 @@
                                 <a href="javascript:void(0)" class="quantity__plus add">
                                     <span>
                                         <svg  width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M1 4H7" stroke="#e7ef04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                            <path d="M4 7V1" stroke="#e7ef04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M1 4H7" stroke="#ffa31a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M4 7V1" stroke="#ffa31a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                         </svg>
                                     </span>
                                 </a>
@@ -106,10 +106,10 @@
                                 <rect width="24" height="24" fill="white"/>
                             </mask>
                             <g mask="url(#mask0_1_2590)">
-                                <path d="M19.5 12.9083C19.5 11.462 20.62 10.2882 22 10.2882V9.24015C22 5.04803 21 4 17 4H7C3 4 2 5.04803 2 9.24015V9.76416C3.38 9.76416 4.5 10.938 4.5 12.3842C4.5 13.8305 3.38 15.0043 2 15.0043V15.5283C2 19.7204 3 20.7685 7 20.7685H17C21 20.7685 22 19.7204 22 15.5283C20.62 15.5283 19.5 14.3545 19.5 12.9083Z" stroke="#e7ef04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M9 15.2663L15 8.97815" stroke="#e7ef04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M14.9945 15.2663H15.0035" stroke="#e7ef04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M8.99451 9.50216H9.00349" stroke="#e7ef04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19.5 12.9083C19.5 11.462 20.62 10.2882 22 10.2882V9.24015C22 5.04803 21 4 17 4H7C3 4 2 5.04803 2 9.24015V9.76416C3.38 9.76416 4.5 10.938 4.5 12.3842C4.5 13.8305 3.38 15.0043 2 15.0043V15.5283C2 19.7204 3 20.7685 7 20.7685H17C21 20.7685 22 19.7204 22 15.5283C20.62 15.5283 19.5 14.3545 19.5 12.9083Z" stroke="#ffa31a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9 15.2663L15 8.97815" stroke="#ffa31a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M14.9945 15.2663H15.0035" stroke="#ffa31a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8.99451 9.50216H9.00349" stroke="#ffa31a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </g>
                         </svg>
                     </span>

@@ -44,7 +44,7 @@
                         </div>
                         <div class="checkoutpage-increment-full">
                             <div class="checkoutpage-increment-full-details">
-                                <p class="chek-txt4">${{ $item['price'] }}</p>
+                                <p class="chek-txt4">{{ $item['price'] }}</p>
                                 <div class="quantity" data-product-id="{{ $item['id'] }}">
                                     <a href="javascript:void(0)" class="quantity__minus sub" onclick="updateCart('{{ $item['id'] }}', 'subtract')">
                                         <span>
@@ -57,8 +57,8 @@
                                     <a href="javascript:void(0)" class="quantity__plus add" onclick="updateCart('{{ $item['id'] }}', 'add')">
                                         <span>
                                             <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M1 4H7" stroke="#e7ef04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M4 7V1" stroke="#e7ef04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M1 4H7" stroke="#ffa31a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M4 7V1" stroke="#ffa31a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                             </svg>
                                         </span>
                                     </a>
@@ -69,7 +69,7 @@
                     <div class="checkoutpage-boder mt-16"></div>
                 </div>
             @endforeach
-            
+
                 @endif
                 {{-- <div class="check-page-top-content mt-16">
                     <div class="checkout-page-top-sec">
@@ -96,8 +96,8 @@
                                     <a href="javascript:void(0)" class="quantity__plus add">
                                         <span>
                                             <svg  width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M1 4H7" stroke="#e7ef04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                                <path d="M4 7V1" stroke="#e7ef04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M1 4H7" stroke="#ffa31a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M4 7V1" stroke="#ffa31a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                             </svg>
                                         </span>
                                     </a>
@@ -136,7 +136,7 @@
                             <div class="time-add-main-sec-full">
                                <div class="time-content-sec">
                                     <p class="time-txt2">Monday, December 26</p>
-                                    <p class="time-txt3">05:00 PM</p>  
+                                    <p class="time-txt3">05:00 PM</p>
                                 </div>
                                 <div class="time-icon-sec">
                                     <a href="#offcanvasExample" data-bs-toggle="offcanvas">
@@ -275,7 +275,7 @@
                             <div class="checkoutpage-boder mt-8"></div>
                         </div>
                         <div class="check-page-bottom mt-12">
-                            
+
                             <div class="check-page-bottom-deatails mt-12">
                                 <div class="check-price-name">
                                     <p>Total</p>
@@ -297,7 +297,7 @@
                                     <p >Include taxes</p>
                                 </div>
                                 <div >
-                                    <p class="col-red">+ $20.00</p>
+                                    <p class="col-green"> 20.00</p>
                                 </div>
                             </div>
                             <div class="checkoutpage-boder mt-12"></div>
@@ -306,7 +306,7 @@
                                     <p class="col-green">Total Price</p>
                                 </div>
                                 <div>
-                                    <p class="col-green">{{$amount['netAmount']}}</p>
+                                    <p class="col-green">INR {{$amount['netAmount']}}</p>
                                 </div>
                             </div>
                         </div>
@@ -335,19 +335,19 @@
                                 @foreach ($address as $addr)
                                 <div class="app-setting-menu-start mt-16">
                                     <div class="menu-icon">
-                                        <input style="background-color: yellow" type="radio" name="menu-option" value="homepage1" class="menu-radio" />
-                             
+                                        <input style="background-color: #ffa31a" type="radio" name="menu-option" value="homepage1" class="menu-radio" />
+
                                     </div>
                                     <div class="menu-txt-app">
                                         <h3 class="app-txt-title">Homepage2</h3>
                                     </div>
-                                </div> 
+                                </div>
                                 @endforeach
                                 <button class="btn btn-primary btn-sm btn-block" id="openForm">Add New Address</button>
                                 <div class="openForm"></div>
                                 <div class="border-bottom-app mt-8"></div>
-                         
-                          
+
+
                         </div>
                         <div class="app-setting-bottom mt-24">
                             <div class="app-setting-bottom-full">
@@ -381,7 +381,7 @@
             </div>
         </div>
         <div class="dark-overlay"></div>
-    
+
 </div>
 
 <div class="menu-sidebar details">
@@ -396,19 +396,19 @@
                     <div class="app-setting-top">
 
 
-                            
+
                             <div class="app-setting-menu-start mt-16">
                                 <div class="menu-icon">
-                                    <input style="background-color: yellow" type="radio" name="menu-option" value="homepage1" class="menu-radio" />
-                         
+                                    <input style="background-color: #ffa31a" type="radio" name="menu-option" value="homepage1" class="menu-radio" />
+
                                 </div>
                                 <div class="menu-txt-app">
                                     <h3 class="app-txt-title">Homepage2</h3>
                                 </div>
                             </div>
                             <div class="border-bottom-app mt-8"></div>
-                     
-                      
+
+
                     </div>
                     <div class="app-setting-bottom mt-24">
                         <div class="app-setting-bottom-full">
@@ -532,14 +532,14 @@ document.getElementById('openForm').addEventListener('click', function() {
 </form>
 
     `;
-    
+
     // Inject the form into the .openForm div
     document.querySelector('.openForm').innerHTML = formHTML;
-    
+
     // Handle form submission
     document.getElementById('addressForm').addEventListener('submit',async function(event) {
         event.preventDefault();  // Prevent the form from submitting normally
-        
+
         const address = document.getElementById('address').value;
         const street = document.getElementById('street').value;
         const city = document.getElementById('city').value;
@@ -580,7 +580,7 @@ document.getElementById('openForm').addEventListener('click', function() {
     }
 
     });
-    
+
     // Close the form if cancel button is clicked
     document.getElementById('closeForm').addEventListener('click', function() {
         document.querySelector('.openForm').innerHTML = '';

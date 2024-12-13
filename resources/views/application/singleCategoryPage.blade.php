@@ -36,11 +36,11 @@
                         <p class="single-page-subtitle">$100</p>
                         <div>
                             <ul class="single-page-star">
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="light-yellow-img"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="light-#ffa31a-img"></li>
                             </ul>
                         </div>
                     </div>
@@ -70,11 +70,11 @@
                         <p class="single-page-subtitle">$40</p>
                         <div>
                             <ul class="single-page-star">
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="light-yellow-img"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="light-#ffa31a-img"></li>
                             </ul>
                         </div>
                     </div>
@@ -104,11 +104,11 @@
                         <p class="single-page-subtitle">$160</p>
                         <div>
                             <ul class="single-page-star">
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="light-yellow-img"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="light-#ffa31a-img"></li>
                             </ul>
                         </div>
                     </div>
@@ -138,11 +138,11 @@
                         <p class="single-page-subtitle">$80</p>
                         <div>
                             <ul class="single-page-star">
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="light-yellow-img"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="light-#ffa31a-img"></li>
                             </ul>
                         </div>
                     </div>
@@ -172,11 +172,11 @@
                         <p class="single-page-subtitle">$100</p>
                         <div>
                             <ul class="single-page-star">
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="light-yellow-img"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="light-#ffa31a-img"></li>
                             </ul>
                         </div>
                     </div>
@@ -206,11 +206,11 @@
                         <p class="single-page-subtitle">$200</p>
                         <div>
                             <ul class="single-page-star">
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="light-yellow-img"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="light-#ffa31a-img"></li>
                             </ul>
                         </div>
                     </div>
@@ -240,11 +240,11 @@
                         <p class="single-page-subtitle">$110</p>
                         <div>
                             <ul class="single-page-star">
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="light-yellow-img"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="light-#ffa31a-img"></li>
                             </ul>
                         </div>
                     </div>
@@ -274,11 +274,11 @@
                         <p class="single-page-subtitle">$70</p>
                         <div>
                             <ul class="single-page-star">
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-                                <li><img src="assets/images/homepage/yellow-star.svg" alt="light-yellow-img"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="light-#ffa31a-img"></li>
                             </ul>
                         </div>
                     </div>

@@ -3,7 +3,7 @@
 	<!-- Payment Success Section Start -->
     <section id="payment-success-first">
         <div class="payment-success-first-wrap">
-            <img src="assets/images/payment-success/bg-img.png" class="img-fluid" alt="bg-img">
+            {{-- <img src="assets/images/payment-success/bg-img.png" class="img-fluid" alt="bg-img"> --}}
             <div class="payment-logo-sec">
                 <img src="assets/images/payment-success/logo.png" class="logo-img" alt="logo-img">
             </div>

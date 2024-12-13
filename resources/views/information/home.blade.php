@@ -102,10 +102,10 @@ About Area
             <div class="col-xl-6 wow fadeInLeft">
                 <div class="img-box1">
                     <div class="img1">
-                        <img src="information/assets/img/normal/about_1.jpg" alt="About">
+                        <img src="information/assets/img/catchytat/hero1/igcactchytat.png" alt="About">
                     </div>
                     <div class="img2">
-                        <img src="information/assets/img/normal/about_2.jpg" alt="About">
+                        <img src="information/assets/img/catchytat/hero1/igcactchytat.png" alt="About">
                     </div>
                     <div class="th-experience jump">
                         <h3 class="experience-year"><span class="counter-number">10</span>+</h3>
@@ -453,7 +453,7 @@ Cta Area
 ==============================-->
 <section class="cta-sec" data-pos-for=".team-area" data-sec-pos="bottom-half">
     <div class="container th-container">
-        <div class="cta-area" data-overlay="title" data-opacity="9" data-bg-src="information/assets/img/bg/cta_bg_1.jpg">
+        <div class="cta-area" data-overlay="title" data-opacity="9" data-bg-src="information/assets/img/catchytat/hero1/igcactchytat.png">
             <div class="row align-items-center">
                 <div class="col-xl-7 col-lg-6 mb-5 mb-lg-0">
                     <div class="title-area mb-0 text-center text-lg-start">
@@ -463,8 +463,8 @@ Cta Area
                 </div>
                 <div class="col-xl-5 col-lg-6">
                     <div class="cta-group justify-content-lg-end justify-content-center">
-                        <a href="service.html" class="th-btn style2">Get Our Services</a>
-                        <a href="contact.html" class="th-btn style3">Contact Us Now</a>
+                        <a href="{{route('serviceOrder')}}" class="th-btn style2">Wash my Clothes</a>
+                        <a href="{{route('contactUs')}}" class="th-btn style3">Contact Us Now</a>
                     </div>
                 </div>
             </div>
@@ -473,7 +473,7 @@ Cta Area
 </section><!--==============================
 Team Area
 ==============================-->
-<section class="team-area space" data-bg-src="information/assets/img/bg/team_bg_1.jpg">
+{{-- <section class="team-area space" data-bg-src="information/assets/img/bg/team_bg_1.jpg">
     <div class="container z-index-common">
         <div class="title-area text-center">
             <span class="sub-title">Expert Team</span>
@@ -595,7 +595,10 @@ Team Area
         </div>
 
     </div>
-</section><!--==============================
+</section> --}}
+
+
+<!--==============================
 Faq Area
 ==============================-->
 <div class="  space overflow-hidden" id="faq-sec">
@@ -616,7 +619,7 @@ Faq Area
                             </div>
                             <div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">We value your feedback! Let us know about your experience and if there's anything else we can do to make your laundry service even better. We're always here to assist you.</p>
+                                    <p class="faq-text">We offer washing, drying, ironing, and full fabric care for clothes, shoes, curtains, blankets, and more, ensuring your items are fresh and well-treated every time!</p>
                                 </div>
                             </div>
                         </div>
@@ -624,11 +627,11 @@ Faq Area
 
                         <div class="accordion-card">
                             <div class="accordion-header" id="collapse-item-2">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">Do You Have Certified Technicians?</button>
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2"> Can you handle delicate fabrics?</button>
                             </div>
                             <div id="collapse-2" class="accordion-collapse collapse " aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">We value your feedback! Let us know about your experience and if there's anything else we can do to make your laundry service even better. We're always here to assist you.</p>
+                                    <p class="faq-text">Yes, we take special care with delicate fabrics, ensuring they are washed, dried, and ironed with the utmost attention to preserve their quality.</p>
                                 </div>
                             </div>
                         </div>
@@ -636,11 +639,11 @@ Faq Area
 
                         <div class="accordion-card">
                             <div class="accordion-header" id="collapse-item-3">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">Can You Provide a Customized Service Plan?</button>
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3"> Do you clean shoes and blankets?</button>
                             </div>
                             <div id="collapse-3" class="accordion-collapse collapse " aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">We value your feedback! Let us know about your experience and if there's anything else we can do to make your laundry service even better. We're always here to assist you.</p>
+                                    <p class="faq-text">Absolutely! We offer cleaning services for shoes, blankets, curtains, and other specialty items, ensuring they are treated with care.</p>
                                 </div>
                             </div>
                         </div>
@@ -648,11 +651,11 @@ Faq Area
 
                         <div class="accordion-card">
                             <div class="accordion-header" id="collapse-item-4">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">What is Your Pricing Structure?</button>
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4"> How quickly can I expect my laundry to be ready?</button>
                             </div>
                             <div id="collapse-4" class="accordion-collapse collapse " aria-labelledby="collapse-item-4" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">We value your feedback! Let us know about your experience and if there's anything else we can do to make your laundry service even better. We're always here to assist you.</p>
+                                    <p class="faq-text">We strive to provide quick turnaround times, typically returning your freshly cleaned and ironed items within 24-48 hours, depending on the service.</p>
                                 </div>
                             </div>
                         </div>
@@ -662,7 +665,7 @@ Faq Area
             <div class="col-xl-6">
                 <div class="faq-img1 ps-xl-4">
                     <div class="img1">
-                        <img src="information/assets/img/normal/faq_1_1.png" alt="faq">
+                        <img src="information/assets/img/catchytat/hero1/shoes.png" alt="faq">
                     </div>
                 </div>
             </div>
@@ -957,7 +960,7 @@ Brand Area
 </div> <!--==============================
 Blog Area
 ==============================-->
-<section class="overflow-hidden space" id="blog-sec" data-bg-src="information/assets/img/bg/blog_bg_1.jpg">
+{{-- <section class="overflow-hidden space" id="blog-sec" data-bg-src="information/assets/img/bg/blog_bg_1.jpg">
     <div class="container">
         <div class="row justify-content-lg-between justify-content-center align-items-end">
             <div class="col-lg">
@@ -1077,10 +1080,12 @@ Blog Area
             <button data-slider-next="#blogSlider1" class="slider-arrow slider-next"><i class="far fa-arrow-right"></i></button>
         </div>
     </div>
-</section><!--==============================
+</section> --}}
+
+<!--==============================
 Footer Area
 ==============================-->
-<footer class="footer-wrapper footer-layout1" data-bg-src="information/assets/img/bg/footer_bg_1.jpg">
+<footer class="footer-wrapper footer-layout1" data-bg-src="information/assets/img/catchytat/hero1/bed2.png">
     <div class="widget-area">
         <div class="container">
             <div class="row justify-content-between">

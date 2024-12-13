@@ -102,11 +102,11 @@
 						<p class="prod-page1-subtitle">$220</p>
 						<div class="product-page2-rating mt-12">
 							<ul>
-								<li><img src="assets/images/single-product-page2/yellow-star.svg" alt="yellow-star"></li>
-								<li><img src="assets/images/single-product-page2/yellow-star.svg" alt="yellow-star"></li>
-								<li><img src="assets/images/single-product-page2/yellow-star.svg" alt="yellow-star"></li>
-								<li><img src="assets/images/single-product-page2/yellow-star.svg" alt="yellow-star"></li>
-								<li><img src="assets/images/single-product-page2/light-yellow-star.svg" alt="yellow-star"></li>
+								<li><img src="assets/images/single-product-page2/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+								<li><img src="assets/images/single-product-page2/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+								<li><img src="assets/images/single-product-page2/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+								<li><img src="assets/images/single-product-page2/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+								<li><img src="assets/images/single-product-page2/light-#ffa31a-star.svg" alt="#ffa31a-star"></li>
 								<li class="pf-8 rate-txt-prod1">(45)</li>
 							</ul>
 						</div>
@@ -229,7 +229,7 @@
 										<path d="M0 0H24V24H0V0Z" fill="white"/>
 									</mask>
 									<g mask="url(#mask0_1_3093)">
-										<path d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z" fill="#e7ef04"/>
+										<path d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z" fill="#ffa31a"/>
 									</g>
 								</svg>
 							</a>
@@ -253,7 +253,7 @@
 										<path d="M0 0H24V24H0V0Z" fill="white"/>
 									</mask>
 									<g mask="url(#mask0_1_3083)">
-										<path d="M22.1621 5.656C21.3986 5.9937 20.589 6.21548 19.7601 6.314C20.6338 5.79144 21.2878 4.96902 21.6001 4C20.7801 4.488 19.8811 4.83 18.9441 5.015C18.3147 4.34158 17.4804 3.89497 16.571 3.74459C15.6616 3.59421 14.728 3.74849 13.9153 4.18346C13.1026 4.61842 12.4564 5.30969 12.0772 6.1498C11.6979 6.9899 11.6068 7.93178 11.8181 8.829C10.1552 8.74566 8.52838 8.31353 7.04334 7.56067C5.55829 6.80781 4.24818 5.75105 3.19805 4.459C2.82634 5.09745 2.63101 5.82323 2.63205 6.562C2.63205 8.012 3.37005 9.293 4.49205 10.043C3.82806 10.0221 3.17869 9.84278 2.59805 9.52V9.572C2.59825 10.5377 2.93242 11.4736 3.5439 12.2211C4.15538 12.9685 5.00653 13.4815 5.95305 13.673C5.33667 13.84 4.69036 13.8647 4.06305 13.745C4.32992 14.5762 4.85006 15.3032 5.55064 15.8241C6.25123 16.345 7.09718 16.6338 7.97005 16.65C7.10253 17.3313 6.10923 17.835 5.04693 18.1322C3.98464 18.4294 2.87418 18.5143 1.77905 18.382C3.69075 19.6114 5.91615 20.2641 8.18905 20.262C15.8821 20.262 20.0891 13.889 20.0891 8.362C20.0891 8.182 20.0841 8 20.0761 7.822C20.8949 7.23017 21.6017 6.49702 22.1631 5.657L22.1621 5.656Z" fill="#e7ef04"/>
+										<path d="M22.1621 5.656C21.3986 5.9937 20.589 6.21548 19.7601 6.314C20.6338 5.79144 21.2878 4.96902 21.6001 4C20.7801 4.488 19.8811 4.83 18.9441 5.015C18.3147 4.34158 17.4804 3.89497 16.571 3.74459C15.6616 3.59421 14.728 3.74849 13.9153 4.18346C13.1026 4.61842 12.4564 5.30969 12.0772 6.1498C11.6979 6.9899 11.6068 7.93178 11.8181 8.829C10.1552 8.74566 8.52838 8.31353 7.04334 7.56067C5.55829 6.80781 4.24818 5.75105 3.19805 4.459C2.82634 5.09745 2.63101 5.82323 2.63205 6.562C2.63205 8.012 3.37005 9.293 4.49205 10.043C3.82806 10.0221 3.17869 9.84278 2.59805 9.52V9.572C2.59825 10.5377 2.93242 11.4736 3.5439 12.2211C4.15538 12.9685 5.00653 13.4815 5.95305 13.673C5.33667 13.84 4.69036 13.8647 4.06305 13.745C4.32992 14.5762 4.85006 15.3032 5.55064 15.8241C6.25123 16.345 7.09718 16.6338 7.97005 16.65C7.10253 17.3313 6.10923 17.835 5.04693 18.1322C3.98464 18.4294 2.87418 18.5143 1.77905 18.382C3.69075 19.6114 5.91615 20.2641 8.18905 20.262C15.8821 20.262 20.0891 13.889 20.0891 8.362C20.0891 8.182 20.0841 8 20.0761 7.822C20.8949 7.23017 21.6017 6.49702 22.1631 5.657L22.1621 5.656Z" fill="#ffa31a"/>
 									</g>
 								</svg>
 							</a>
@@ -265,7 +265,7 @@
 										<path d="M0 0H24V24H0V0Z" fill="white"/>
 									</mask>
 									<g mask="url(#mask0_1_3078)">
-										<path d="M6.93994 4.99999C6.93968 5.53043 6.72871 6.03903 6.35345 6.41391C5.97819 6.7888 5.46937 6.99926 4.93894 6.99899C4.40851 6.99873 3.89991 6.78776 3.52502 6.4125C3.15014 6.03724 2.93968 5.52843 2.93994 4.99799C2.94021 4.46756 3.15117 3.95896 3.52644 3.58407C3.9017 3.20919 4.41051 2.99873 4.94094 2.99899C5.47137 2.99926 5.97998 3.21023 6.35486 3.58549C6.72975 3.96075 6.94021 4.46956 6.93994 4.99999V4.99999ZM6.99994 8.47999H2.99994V21H6.99994V8.47999ZM13.3199 8.47999H9.33994V21H13.2799V14.43C13.2799 10.77 18.0499 10.43 18.0499 14.43V21H21.9999V13.07C21.9999 6.89999 14.9399 7.12999 13.2799 10.16L13.3199 8.47999V8.47999Z" fill="#e7ef04"/>
+										<path d="M6.93994 4.99999C6.93968 5.53043 6.72871 6.03903 6.35345 6.41391C5.97819 6.7888 5.46937 6.99926 4.93894 6.99899C4.40851 6.99873 3.89991 6.78776 3.52502 6.4125C3.15014 6.03724 2.93968 5.52843 2.93994 4.99799C2.94021 4.46756 3.15117 3.95896 3.52644 3.58407C3.9017 3.20919 4.41051 2.99873 4.94094 2.99899C5.47137 2.99926 5.97998 3.21023 6.35486 3.58549C6.72975 3.96075 6.94021 4.46956 6.93994 4.99999V4.99999ZM6.99994 8.47999H2.99994V21H6.99994V8.47999ZM13.3199 8.47999H9.33994V21H13.2799V14.43C13.2799 10.77 18.0499 10.43 18.0499 14.43V21H21.9999V13.07C21.9999 6.89999 14.9399 7.12999 13.2799 10.16L13.3199 8.47999V8.47999Z" fill="#ffa31a"/>
 									</g>
 								</svg>
 							</a>
@@ -299,11 +299,11 @@
 										<div class="col-3 d-flex align-items-center justify-content-end">
 											<div class="review-sec-star">
 												<ul>
-													<li><img src="assets/images/single-product-page/yellow-star.png " alt="yellow-star"></li>
-													<li><img src="assets/images/single-product-page/yellow-star.png " alt="yellow-star"></li>
-													<li><img src="assets/images/single-product-page/yellow-star.png " alt="yellow-star"></li>
-													<li><img src="assets/images/single-product-page/yellow-star.png " alt="yellow-star"></li>
-													<li><img src="assets/images/single-product-page/yellow-star.png " alt="yellow-star"></li>
+													<li><img src="assets/images/single-product-page/#ffa31a-star.png " alt="#ffa31a-star"></li>
+													<li><img src="assets/images/single-product-page/#ffa31a-star.png " alt="#ffa31a-star"></li>
+													<li><img src="assets/images/single-product-page/#ffa31a-star.png " alt="#ffa31a-star"></li>
+													<li><img src="assets/images/single-product-page/#ffa31a-star.png " alt="#ffa31a-star"></li>
+													<li><img src="assets/images/single-product-page/#ffa31a-star.png " alt="#ffa31a-star"></li>
 												</ul>
 											</div>
 										</div>
@@ -320,10 +320,10 @@
 										<div class="col-3 d-flex align-items-center justify-content-end">
 											<div class="review-sec-star">
 												<ul>
-													<li><img src="assets/images/single-product-page/yellow-star.png" alt="yellow-star"></li>
-													<li><img src="assets/images/single-product-page/yellow-star.png" alt="yellow-star"></li>
-													<li><img src="assets/images/single-product-page/yellow-star.png" alt="yellow-star"></li>
-													<li><img src="assets/images/single-product-page/yellow-star.png" alt="yellow-star"></li>
+													<li><img src="assets/images/single-product-page/#ffa31a-star.png" alt="#ffa31a-star"></li>
+													<li><img src="assets/images/single-product-page/#ffa31a-star.png" alt="#ffa31a-star"></li>
+													<li><img src="assets/images/single-product-page/#ffa31a-star.png" alt="#ffa31a-star"></li>
+													<li><img src="assets/images/single-product-page/#ffa31a-star.png" alt="#ffa31a-star"></li>
 												</ul>
 											</div>
 										</div>
@@ -340,9 +340,9 @@
 										<div class="col-3 d-flex align-items-center justify-content-end">
 											<div class="review-sec-star">
 												<ul>
-													<li><img src="assets/images/single-product-page/yellow-star.png" alt="yellow-star"></li>
-													<li><img src="assets/images/single-product-page/yellow-star.png" alt="yellow-star"></li>
-													<li><img src="assets/images/single-product-page/yellow-star.png" alt="yellow-star"></li>
+													<li><img src="assets/images/single-product-page/#ffa31a-star.png" alt="#ffa31a-star"></li>
+													<li><img src="assets/images/single-product-page/#ffa31a-star.png" alt="#ffa31a-star"></li>
+													<li><img src="assets/images/single-product-page/#ffa31a-star.png" alt="#ffa31a-star"></li>
 												</ul>
 											</div>
 										</div>
@@ -359,8 +359,8 @@
 										<div class="col-3 d-flex align-items-center justify-content-end">
 											<div class="review-sec-star">
 												<ul>
-													<li><img src="assets/images/single-product-page/yellow-star.png" alt="yellow-star"></li>
-													<li><img src="assets/images/single-product-page/yellow-star.png" alt="yellow-star"></li>
+													<li><img src="assets/images/single-product-page/#ffa31a-star.png" alt="#ffa31a-star"></li>
+													<li><img src="assets/images/single-product-page/#ffa31a-star.png" alt="#ffa31a-star"></li>
 												</ul>
 											</div>
 										</div>
@@ -377,7 +377,7 @@
 										<div class="col-3 d-flex align-items-center justify-content-end">
 											<div class="review-sec-star">
 												<ul>
-													<li><img src="assets/images/single-product-page/yellow-star.png" alt="yellow-star"></li>
+													<li><img src="assets/images/single-product-page/#ffa31a-star.png" alt="#ffa31a-star"></li>
 												</ul>
 											</div>
 										</div>
@@ -453,18 +453,18 @@
 							</div>
 							<div class="related-item-content">
 								<h4 class="d-none">Related Item</h4>
-								<h5 class="rel-txt1">Yellow Chair</h5>
+								<h5 class="rel-txt1">#ffa31a Chair</h5>
 								<div class="related-item-content-rating-sec">
 									<div class="related-item-first">
 										<h6 class="rel-txt2">$60</h6>
 									</div>
 									<div class="related-item-second">
 										<ul>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/light-yellow-star.svg" alt="light-yellow-img"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/light-#ffa31a-star.svg" alt="light-#ffa31a-img"></li>
 										</ul>
 									</div>
 								</div>
@@ -504,11 +504,11 @@
 									</div>
 									<div class="related-item-second">
 										<ul>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/light-yellow-star.svg" alt="light-yellow-img"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/light-#ffa31a-star.svg" alt="light-#ffa31a-img"></li>
 										</ul>
 									</div>
 								</div>
@@ -548,11 +548,11 @@
 									</div>
 									<div class="related-item-second">
 										<ul>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/light-yellow-star.svg" alt="light-yellow-img"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/light-#ffa31a-star.svg" alt="light-#ffa31a-img"></li>
 										</ul>
 									</div>
 								</div>
@@ -592,11 +592,11 @@
 									</div>
 									<div class="related-item-second">
 										<ul>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/light-yellow-star.svg" alt="light-yellow-img"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/light-#ffa31a-star.svg" alt="light-#ffa31a-img"></li>
 										</ul>
 									</div>
 								</div>
@@ -629,18 +629,18 @@
 							</div>
 							<div class="related-item-content">
 								<h4 class="d-none">Related Item</h4>
-								<h5 class="rel-txt1">Yellow Chair</h5>
+								<h5 class="rel-txt1">#ffa31a Chair</h5>
 								<div class="related-item-content-rating-sec">
 									<div class="related-item-first">
 										<h6 class="rel-txt2">$60</h6>
 									</div>
 									<div class="related-item-second">
 										<ul>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/light-yellow-star.svg" alt="light-yellow-img"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/light-#ffa31a-star.svg" alt="light-#ffa31a-img"></li>
 										</ul>
 									</div>
 								</div>
@@ -680,11 +680,11 @@
 									</div>
 									<div class="related-item-second">
 										<ul>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/light-yellow-star.svg" alt="light-yellow-img"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/light-#ffa31a-star.svg" alt="light-#ffa31a-img"></li>
 										</ul>
 									</div>
 								</div>
@@ -707,8 +707,8 @@
 						<a href="javascript:void(0)" class="product__plus add">
 							<span>
 								<svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path d="M1 4H7" stroke="#e7ef04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-									<path d="M4 7V1" stroke="#e7ef04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M1 4H7" stroke="#ffa31a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+									<path d="M4 7V1" stroke="#ffa31a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 								</svg>
 							</span>
 						</a>

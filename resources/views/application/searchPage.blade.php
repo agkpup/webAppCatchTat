@@ -126,7 +126,7 @@
                             <div class="single-page-chair-content">
                                 <div class="single-page-chair-content-full">
                                     <p class="search-page-title">Sofas</p>
-                                    <h3 class="search-page-subtitle">Yellow Meon</h3>
+                                    <h3 class="search-page-subtitle">#ffa31a Meon</h3>
                                     <h4 class="seach-page-txt3">$150</h4>
                                 </div>
                             </div>
@@ -243,7 +243,7 @@
                         <div class="single-page-chair-content">
                             <div class="single-page-chair-content-full">
                                 <p class="search-page-title">Sofas</p>
-                                <h3 class="search-page-subtitle">Yellow Meon</h3>
+                                <h3 class="search-page-subtitle">#ffa31a Meon</h3>
                                 <h4 class="seach-page-txt3">$150</h4>
                             </div>
                         </div>
@@ -273,7 +273,7 @@
                         <div class="single-page-chair-content">
                             <div class="single-page-chair-content-full">
                                 <p class="search-page-title">Sofas</p>
-                                <h3 class="search-page-subtitle">Yellow Meon</h3>
+                                <h3 class="search-page-subtitle">#ffa31a Meon</h3>
                                 <h4 class="seach-page-txt3">$150</h4>
                             </div>
                         </div>

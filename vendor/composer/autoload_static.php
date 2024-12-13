@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
+class ComposerStaticInitc953fd4bb9f90eedd835ca2773cd64dc
 {
     public static $files = array (
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
@@ -129,6 +129,7 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
             'Laravel\\Sanctum\\' => 16,
             'Laravel\\Sail\\' => 13,
             'Laravel\\Prompts\\' => 16,
+            'Laravel\\Breeze\\' => 15,
         ),
         'I' => 
         array (
@@ -355,8 +356,8 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-factory/src',
-            1 => __DIR__ . '/..' . '/psr/http-message/src',
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+            1 => __DIR__ . '/..' . '/psr/http-factory/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -433,6 +434,10 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         'Laravel\\Prompts\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/prompts/src',
+        ),
+        'Laravel\\Breeze\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laravel/breeze/src',
         ),
         'Illuminate\\Support\\' => 
         array (
@@ -2772,6 +2777,12 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         'Illuminate\\View\\ViewFinderInterface' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewFinderInterface.php',
         'Illuminate\\View\\ViewName' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewName.php',
         'Illuminate\\View\\ViewServiceProvider' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/View/ViewServiceProvider.php',
+        'Laravel\\Breeze\\BreezeServiceProvider' => __DIR__ . '/..' . '/laravel/breeze/src/BreezeServiceProvider.php',
+        'Laravel\\Breeze\\Console\\InstallCommand' => __DIR__ . '/..' . '/laravel/breeze/src/Console/InstallCommand.php',
+        'Laravel\\Breeze\\Console\\InstallsApiStack' => __DIR__ . '/..' . '/laravel/breeze/src/Console/InstallsApiStack.php',
+        'Laravel\\Breeze\\Console\\InstallsBladeStack' => __DIR__ . '/..' . '/laravel/breeze/src/Console/InstallsBladeStack.php',
+        'Laravel\\Breeze\\Console\\InstallsInertiaStacks' => __DIR__ . '/..' . '/laravel/breeze/src/Console/InstallsInertiaStacks.php',
+        'Laravel\\Breeze\\Console\\InstallsLivewireStack' => __DIR__ . '/..' . '/laravel/breeze/src/Console/InstallsLivewireStack.php',
         'Laravel\\Prompts\\Concerns\\Colors' => __DIR__ . '/..' . '/laravel/prompts/src/Concerns/Colors.php',
         'Laravel\\Prompts\\Concerns\\Cursor' => __DIR__ . '/..' . '/laravel/prompts/src/Concerns/Cursor.php',
         'Laravel\\Prompts\\Concerns\\Erase' => __DIR__ . '/..' . '/laravel/prompts/src/Concerns/Erase.php',
@@ -2871,10 +2882,12 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         'Laravel\\Tinker\\TinkerServiceProvider' => __DIR__ . '/..' . '/laravel/tinker/src/TinkerServiceProvider.php',
         'League\\CommonMark\\CommonMarkConverter' => __DIR__ . '/..' . '/league/commonmark/src/CommonMarkConverter.php',
         'League\\CommonMark\\ConverterInterface' => __DIR__ . '/..' . '/league/commonmark/src/ConverterInterface.php',
+        'League\\CommonMark\\Delimiter\\Bracket' => __DIR__ . '/..' . '/league/commonmark/src/Delimiter/Bracket.php',
         'League\\CommonMark\\Delimiter\\Delimiter' => __DIR__ . '/..' . '/league/commonmark/src/Delimiter/Delimiter.php',
         'League\\CommonMark\\Delimiter\\DelimiterInterface' => __DIR__ . '/..' . '/league/commonmark/src/Delimiter/DelimiterInterface.php',
         'League\\CommonMark\\Delimiter\\DelimiterParser' => __DIR__ . '/..' . '/league/commonmark/src/Delimiter/DelimiterParser.php',
         'League\\CommonMark\\Delimiter\\DelimiterStack' => __DIR__ . '/..' . '/league/commonmark/src/Delimiter/DelimiterStack.php',
+        'League\\CommonMark\\Delimiter\\Processor\\CacheableDelimiterProcessorInterface' => __DIR__ . '/..' . '/league/commonmark/src/Delimiter/Processor/CacheableDelimiterProcessorInterface.php',
         'League\\CommonMark\\Delimiter\\Processor\\DelimiterProcessorCollection' => __DIR__ . '/..' . '/league/commonmark/src/Delimiter/Processor/DelimiterProcessorCollection.php',
         'League\\CommonMark\\Delimiter\\Processor\\DelimiterProcessorCollectionInterface' => __DIR__ . '/..' . '/league/commonmark/src/Delimiter/Processor/DelimiterProcessorCollectionInterface.php',
         'League\\CommonMark\\Delimiter\\Processor\\DelimiterProcessorInterface' => __DIR__ . '/..' . '/league/commonmark/src/Delimiter/Processor/DelimiterProcessorInterface.php',
@@ -3128,6 +3141,7 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         'League\\CommonMark\\Parser\\MarkdownParserState' => __DIR__ . '/..' . '/league/commonmark/src/Parser/MarkdownParserState.php',
         'League\\CommonMark\\Parser\\MarkdownParserStateInterface' => __DIR__ . '/..' . '/league/commonmark/src/Parser/MarkdownParserStateInterface.php',
         'League\\CommonMark\\Parser\\ParserLogicException' => __DIR__ . '/..' . '/league/commonmark/src/Parser/ParserLogicException.php',
+        'League\\CommonMark\\Reference\\MemoryLimitedReferenceMap' => __DIR__ . '/..' . '/league/commonmark/src/Reference/MemoryLimitedReferenceMap.php',
         'League\\CommonMark\\Reference\\Reference' => __DIR__ . '/..' . '/league/commonmark/src/Reference/Reference.php',
         'League\\CommonMark\\Reference\\ReferenceInterface' => __DIR__ . '/..' . '/league/commonmark/src/Reference/ReferenceInterface.php',
         'League\\CommonMark\\Reference\\ReferenceMap' => __DIR__ . '/..' . '/league/commonmark/src/Reference/ReferenceMap.php',
@@ -3424,6 +3438,7 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         'Monolog\\Handler\\WebRequestRecognizerTrait' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Handler/WebRequestRecognizerTrait.php',
         'Monolog\\Handler\\WhatFailureGroupHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Handler/WhatFailureGroupHandler.php',
         'Monolog\\Handler\\ZendMonitorHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Handler/ZendMonitorHandler.php',
+        'Monolog\\JsonSerializableDateTimeImmutable' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/JsonSerializableDateTimeImmutable.php',
         'Monolog\\Level' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Level.php',
         'Monolog\\LogRecord' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/LogRecord.php',
         'Monolog\\Logger' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Logger.php',
@@ -4022,7 +4037,9 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         'PHPUnit\\Logging\\TeamCity\\TestPreparedSubscriber' => __DIR__ . '/..' . '/phpunit/phpunit/src/Logging/TeamCity/Subscriber/TestPreparedSubscriber.php',
         'PHPUnit\\Logging\\TeamCity\\TestRunnerExecutionFinishedSubscriber' => __DIR__ . '/..' . '/phpunit/phpunit/src/Logging/TeamCity/Subscriber/TestRunnerExecutionFinishedSubscriber.php',
         'PHPUnit\\Logging\\TeamCity\\TestSkippedSubscriber' => __DIR__ . '/..' . '/phpunit/phpunit/src/Logging/TeamCity/Subscriber/TestSkippedSubscriber.php',
+        'PHPUnit\\Logging\\TeamCity\\TestSuiteBeforeFirstTestMethodErroredSubscriber' => __DIR__ . '/..' . '/phpunit/phpunit/src/Logging/TeamCity/Subscriber/TestSuiteBeforeFirstTestMethodErroredSubscriber.php',
         'PHPUnit\\Logging\\TeamCity\\TestSuiteFinishedSubscriber' => __DIR__ . '/..' . '/phpunit/phpunit/src/Logging/TeamCity/Subscriber/TestSuiteFinishedSubscriber.php',
+        'PHPUnit\\Logging\\TeamCity\\TestSuiteSkippedSubscriber' => __DIR__ . '/..' . '/phpunit/phpunit/src/Logging/TeamCity/Subscriber/TestSuiteSkippedSubscriber.php',
         'PHPUnit\\Logging\\TeamCity\\TestSuiteStartedSubscriber' => __DIR__ . '/..' . '/phpunit/phpunit/src/Logging/TeamCity/Subscriber/TestSuiteStartedSubscriber.php',
         'PHPUnit\\Logging\\TestDox\\HtmlRenderer' => __DIR__ . '/..' . '/phpunit/phpunit/src/Logging/TestDox/HtmlRenderer.php',
         'PHPUnit\\Logging\\TestDox\\NamePrettifier' => __DIR__ . '/..' . '/phpunit/phpunit/src/Logging/TestDox/NamePrettifier.php',
@@ -5430,6 +5447,7 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
         'Spatie\\FlareClient\\Context\\RequestContextProvider' => __DIR__ . '/..' . '/spatie/flare-client-php/src/Context/RequestContextProvider.php',
         'Spatie\\FlareClient\\Contracts\\ProvidesFlareContext' => __DIR__ . '/..' . '/spatie/flare-client-php/src/Contracts/ProvidesFlareContext.php',
         'Spatie\\FlareClient\\Enums\\MessageLevels' => __DIR__ . '/..' . '/spatie/flare-client-php/src/Enums/MessageLevels.php',
+        'Spatie\\FlareClient\\Enums\\OverriddenGrouping' => __DIR__ . '/..' . '/spatie/flare-client-php/src/Enums/OverriddenGrouping.php',
         'Spatie\\FlareClient\\Flare' => __DIR__ . '/..' . '/spatie/flare-client-php/src/Flare.php',
         'Spatie\\FlareClient\\FlareMiddleware\\AddDocumentationLinks' => __DIR__ . '/..' . '/spatie/flare-client-php/src/FlareMiddleware/AddDocumentationLinks.php',
         'Spatie\\FlareClient\\FlareMiddleware\\AddEnvironmentInformation' => __DIR__ . '/..' . '/spatie/flare-client-php/src/FlareMiddleware/AddEnvironmentInformation.php',
@@ -6615,9 +6633,9 @@ class ComposerStaticInit9c491b8531eec05ba41a11d9276a5749
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit9c491b8531eec05ba41a11d9276a5749::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit9c491b8531eec05ba41a11d9276a5749::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit9c491b8531eec05ba41a11d9276a5749::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitc953fd4bb9f90eedd835ca2773cd64dc::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitc953fd4bb9f90eedd835ca2773cd64dc::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitc953fd4bb9f90eedd835ca2773cd64dc::$classMap;
 
         }, null, ClassLoader::class);
     }

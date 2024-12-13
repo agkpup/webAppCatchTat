@@ -52,11 +52,11 @@
                                     <p class="prod-page2-subtitle">$220</p>
                                     <div class="product-page2-rating mt-12">
                                         <ul>
-                                            <li><img src="assets/images/single-product-page2/yellow-star.svg" alt="yellow-star"></li>
-                                            <li><img src="assets/images/single-product-page2/yellow-star.svg" alt="yellow-star"></li>
-                                            <li><img src="assets/images/single-product-page2/yellow-star.svg" alt="yellow-star"></li>
-                                            <li><img src="assets/images/single-product-page2/yellow-star.svg" alt="yellow-star"></li>
-                                            <li><img src="assets/images/single-product-page2/light-yellow-star.svg" alt="yellow-star"></li>
+                                            <li><img src="assets/images/single-product-page2/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                            <li><img src="assets/images/single-product-page2/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                            <li><img src="assets/images/single-product-page2/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                            <li><img src="assets/images/single-product-page2/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                            <li><img src="assets/images/single-product-page2/light-#ffa31a-star.svg" alt="#ffa31a-star"></li>
                                             <li class="pf-8 rate-txt-prod">(45)</li>
                                         </ul>
                                     </div>
@@ -91,11 +91,11 @@
                                     <p class="prod-page2-subtitle">$220</p>
                                     <div class="product-page2-rating mt-12">
                                         <ul>
-                                            <li><img src="assets/images/single-product-page2/yellow-star.svg" alt="yellow-star"></li>
-                                            <li><img src="assets/images/single-product-page2/yellow-star.svg" alt="yellow-star"></li>
-                                            <li><img src="assets/images/single-product-page2/yellow-star.svg" alt="yellow-star"></li>
-                                            <li><img src="assets/images/single-product-page2/yellow-star.svg" alt="yellow-star"></li>
-                                            <li><img src="assets/images/single-product-page2/light-yellow-star.svg" alt="yellow-star"></li>
+                                            <li><img src="assets/images/single-product-page2/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                            <li><img src="assets/images/single-product-page2/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                            <li><img src="assets/images/single-product-page2/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                            <li><img src="assets/images/single-product-page2/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                            <li><img src="assets/images/single-product-page2/light-#ffa31a-star.svg" alt="#ffa31a-star"></li>
                                             <li class="pf-8 rate-txt-prod">(45)</li>
                                         </ul>
                                     </div>
@@ -130,11 +130,11 @@
                                     <p class="prod-page2-subtitle">$220</p>
                                     <div class="product-page2-rating mt-12">
                                         <ul>
-                                            <li><img src="assets/images/single-product-page2/yellow-star.svg" alt="yellow-star"></li>
-                                            <li><img src="assets/images/single-product-page2/yellow-star.svg" alt="yellow-star"></li>
-                                            <li><img src="assets/images/single-product-page2/yellow-star.svg" alt="yellow-star"></li>
-                                            <li><img src="assets/images/single-product-page2/yellow-star.svg" alt="yellow-star"></li>
-                                            <li><img src="assets/images/single-product-page2/light-yellow-star.svg" alt="yellow-star"></li>
+                                            <li><img src="assets/images/single-product-page2/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                            <li><img src="assets/images/single-product-page2/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                            <li><img src="assets/images/single-product-page2/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                            <li><img src="assets/images/single-product-page2/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+                                            <li><img src="assets/images/single-product-page2/light-#ffa31a-star.svg" alt="#ffa31a-star"></li>
                                             <li class="pf-8 rate-txt-prod">(45)</li>
                                         </ul>
                                     </div>
@@ -201,8 +201,8 @@
                     <a href="javascript:void(0)" class="product__plus add">
                         <span>
                             <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1 4H7" stroke="#e7ef04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M4 7V1" stroke="#e7ef04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M1 4H7" stroke="#ffa31a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M4 7V1" stroke="#ffa31a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
                         </span>
                     </a>

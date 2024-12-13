@@ -97,7 +97,7 @@ Version: 1.0.0
   --gray-color: #bdbdbd;
   --white-color: #ffffff;
   --light-color: #bdbdbd;
-  --yellow-color: #FFB539;
+  --#ffa31a-color: #FFB539;
   --success-color: #28a745;
   --error-color: #dc3545;
   --th-border-color: #D8DDE1;
@@ -2725,8 +2725,8 @@ hr.title-line {
   color: var(--light-color) !important;
 }
 
-.text-yellow {
-  color: var(--yellow-color) !important;
+.text-#ffa31a {
+  color: var(--#ffa31a-color) !important;
 }
 
 .text-success {
@@ -9999,7 +9999,7 @@ table.woocommerce-product-attributes {
   content: "\e28b";
   font-weight: 400;
   text-indent: 0;
-  color: var(--yellow-color);
+  color: var(--#ffa31a-color);
 }
 
 .rating-select p.stars a:hover ~ a::before {
@@ -12276,6 +12276,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .contact-feature .box-text {
   margin-bottom: 0;
+  color:black;
 }
 
 .contact-feature .th-social a {

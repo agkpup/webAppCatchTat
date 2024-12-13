@@ -10,7 +10,7 @@
   --gray-color          : #bdbdbd;
   --white-color         : #ffffff;
   --light-color         : #bdbdbd;
-  --yellow-color        : #FFB539;
+  --#ffa31a-color        : #FFB539;
   --success-color       : #28a745;
   --error-color         : #dc3545;
   --th-border-color        : #D8DDE1;
@@ -38,7 +38,7 @@ $light-color          : var(--light-color);
 $black-color          : var(--black-color);
 $black-color2         : var(--black-color2);
 $gray-color           : var(--gray-color);
-$yellow-color         : var(--yellow-color);
+$#ffa31a-color         : var(--#ffa31a-color);
 $success-color        : var(--success-color);
 $error-color          : var(--error-color);
 $border-color         : var(--th-border-color);
@@ -114,7 +114,7 @@ $textColorsMap : map-merge((
   "body"       : $body-color,
   "white"      : $white-color,
   "light"      : $light-color,
-  "yellow"     : $yellow-color,
+  "#ffa31a"     : $#ffa31a-color,
   "success"    : $success-color,
   "error"      : $error-color
 ), $textColorsMap);

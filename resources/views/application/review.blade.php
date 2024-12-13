@@ -35,11 +35,11 @@
                         <div class="review1-third-full">
                             <div>
                                 <ul class="review-star-sec">
-                                    <li><img src="assets/images/homepage/yellow-star.svg" alt="star-img"></li>
-                                    <li><img src="assets/images/homepage/yellow-star.svg" alt="star-img"></li>
-                                    <li><img src="assets/images/homepage/yellow-star.svg" alt="star-img"></li>
-                                    <li><img src="assets/images/homepage/yellow-star.svg" alt="star-img"></li>
-                                    <li><img src="assets/images/homepage/light-yellow-star.svg" alt="light-yellow-img"></li>
+                                    <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="star-img"></li>
+                                    <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="star-img"></li>
+                                    <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="star-img"></li>
+                                    <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="star-img"></li>
+                                    <li><img src="assets/images/homepage/light-#ffa31a-star.svg" alt="light-#ffa31a-img"></li>
                                     <li class="pf-8 revi-rate-txt">(45)</li>	
                                 </ul>
                             </div>
@@ -63,11 +63,11 @@
                                 <div>
                                     <h3 class="rev2-txt1">Ami Jackson</h3>
                                     <ul class="review-star-sec mt-8">
-                                        <li><img src="assets/images/homepage/yellow-star.svg" alt="star-img"></li>
-                                        <li><img src="assets/images/homepage/yellow-star.svg" alt="star-img"></li>
-                                        <li><img src="assets/images/homepage/yellow-star.svg" alt="star-img"></li>
-                                        <li><img src="assets/images/homepage/yellow-star.svg" alt="star-img"></li>
-                                        <li><img src="assets/images/homepage/light-yellow-star.svg" alt="light-yellow-img"></li>
+                                        <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="star-img"></li>
+                                        <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="star-img"></li>
+                                        <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="star-img"></li>
+                                        <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="star-img"></li>
+                                        <li><img src="assets/images/homepage/light-#ffa31a-star.svg" alt="light-#ffa31a-img"></li>
                                         <li class="pf-8 rate-time">20 minutes ago</li>	
                                     </ul>
                                 </div>
@@ -102,11 +102,11 @@
                                 <div>
                                     <h3 class="rev2-txt1">Kevin Smith</h3>
                                     <ul class="review-star-sec mt-8">
-                                        <li><img src="assets/images/homepage/yellow-star.svg" alt="star-img"></li>
-                                        <li><img src="assets/images/homepage/yellow-star.svg" alt="star-img"></li>
-                                        <li><img src="assets/images/homepage/yellow-star.svg" alt="star-img"></li>
-                                        <li><img src="assets/images/homepage/yellow-star.svg" alt="star-img"></li>
-                                        <li><img src="assets/images/homepage/light-yellow-star.svg" alt="light-yellow-img"></li>
+                                        <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="star-img"></li>
+                                        <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="star-img"></li>
+                                        <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="star-img"></li>
+                                        <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="star-img"></li>
+                                        <li><img src="assets/images/homepage/light-#ffa31a-star.svg" alt="light-#ffa31a-img"></li>
                                         <li class="pf-8 rate-time">1 hour ago</li>	
                                     </ul>
                                 </div>
@@ -132,11 +132,11 @@
                                 <div>
                                     <h3 class="rev2-txt1">Lara Jorden</h3>
                                     <ul class="review-star-sec mt-8">
-                                        <li><img src="assets/images/homepage/yellow-star.svg" alt="star-img"></li>
-                                        <li><img src="assets/images/homepage/yellow-star.svg" alt="star-img"></li>
-                                        <li><img src="assets/images/homepage/yellow-star.svg" alt="star-img"></li>
-                                        <li><img src="assets/images/homepage/yellow-star.svg" alt="star-img"></li>
-                                        <li><img src="assets/images/homepage/light-yellow-star.svg" alt="light-yellow-img"></li>
+                                        <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="star-img"></li>
+                                        <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="star-img"></li>
+                                        <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="star-img"></li>
+                                        <li><img src="assets/images/homepage/#ffa31a-star.svg" alt="star-img"></li>
+                                        <li><img src="assets/images/homepage/light-#ffa31a-star.svg" alt="light-#ffa31a-img"></li>
                                         <li class="pf-8 rate-time">3 hours ago</li>	
                                     </ul>
                                 </div>

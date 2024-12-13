@@ -53,11 +53,11 @@
 									</div>
 									<div>
 										<ul class="homepage-rating-sec">
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/light-yellow-star.svg" alt="light-yellow-img"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/light-#ffa31a-star.svg" alt="light-#ffa31a-img"></li>
 										</ul>
 									</div>
 								</div>
@@ -95,11 +95,11 @@
 									</div>
 									<div>
 										<ul class="homepage-rating-sec">
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/yellow-star.svg" alt="yellow-star"></li>
-											<li><img src="assets/images/homepage/light-yellow-star.svg" alt="light-yellow-img"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/#ffa31a-star.svg" alt="#ffa31a-star"></li>
+											<li><img src="assets/images/homepage/light-#ffa31a-star.svg" alt="light-#ffa31a-img"></li>
 										</ul>
 									</div>
 								</div>
